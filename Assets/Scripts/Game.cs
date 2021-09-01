@@ -11,7 +11,7 @@ public class Game : MonoBehaviour
     public Text enunciado;
     public Text[] respuesta;
     public int nivelPregunta;
-    protected int preguntaAlAzar;
+    public int preguntaAlAzar;
 
     // Start is called before the first frame update
     void Start()
