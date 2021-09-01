@@ -9,7 +9,7 @@ public class LoaderJSON : MonoBehaviour
     public Game game;
 
     // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
         //https://answers.unity.com/questions/1533905/reading-json-file-1.html
 
@@ -17,14 +17,16 @@ public class LoaderJSON : MonoBehaviour
         game.bancoDePreguntas = null;
 
         // ubicacion del archivo
-        string archivpPath = Application.streamingAssetsPath + "/" + nombreArchivo;
+        string archivoPath = Application.streamingAssetsPath + "/" + nombreArchivo;
 
-        string jsonString = File.ReadAllText(archivpPath);
+        string jsonString = File.ReadAllText(archivoPath);
 
-        // Serilizar el archivo
+        //Debug.Log(jsonString);
+
+        // Serializar el archivo
         game.bancoDePreguntas = JsonUtility.FromJson<Dificultad[]>(jsonString);
-
-
+        
+        //Debug.Log(game.bancoDePreguntas);
 
     }
 }

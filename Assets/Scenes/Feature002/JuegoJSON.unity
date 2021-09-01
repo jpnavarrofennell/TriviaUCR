@@ -1055,24 +1055,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bancoDePreguntas:
-  - nombreDificultad: Muy Facil
+  - nombreDificultad: lvl0
     preguntas:
-    - enunciado: Quien es Marty McFly
+    - enunciado: 1+1
       respuestas:
-      - texto: Protagonista de volver al futuro
-      - texto: Protagonista de start trek
-      - texto: Protagonista de parque jurasico
-      - texto: Protagonista blade runner
-      respuestaCorrecta: 0
-  - nombreDificultad: Facil
-    preguntas:
-    - enunciado: Como se llama la nave insignia de Star Trek
-      respuestas:
-      - texto: Milenial Falcon
-      - texto: Normandy
-      - texto: Enterprice
-      - texto: Delorean
+      - texto: 0
+      - texto: 1
+      - texto: 2
+      - texto: 3
       respuestaCorrecta: 2
+  - nombreDificultad: lvl1
+    preguntas:
+    - enunciado: 2+2
+      respuestas:
+      - texto: 0
+      - texto: 1
+      - texto: 2
+      - texto: 4
+      respuestaCorrecta: 3
   enunciado: {fileID: 1047069286}
   respuesta:
   - {fileID: 566457291}
