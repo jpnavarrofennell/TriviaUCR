@@ -13,6 +13,7 @@ public class Game : MonoBehaviour
     public int nivelPregunta;
     protected int preguntaAlAzar;
 
+    public Button btn_Comodin5050;
     public Button [] btn_respuesta;
 
     // Start is called before the first frame update
@@ -69,6 +70,7 @@ public class Game : MonoBehaviour
             else
             {
                 // subir de nivel
+
                 HabilitarRespuestas();
                 SelecionarPregunta();
             }
@@ -102,27 +104,51 @@ public class Game : MonoBehaviour
         //Inicio comodin 50/50.
     public void Comodin5050()
     {
-        //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
-        for (int i = 0; i < (respuesta.Length-1); i++)
-        {
-            if (i == bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].respuestaCorrecta)
-            {
-           
-                     
-                Debug.Log("Opcion correcta " + bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].respuestaCorrecta.ToString());
-                
-            }
-            else
-            {
-                btn_respuesta[i].gameObject.SetActive(false);
-            }
 
+        //Desabilita comodin 50/50
+        btn_Comodin5050.interactable = false;
+        //fin
+
+        //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
+        int respuestaCorrecta = bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].respuestaCorrecta;
+        ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta);
+        foreach (var r in respuestasTemp)
+        {
+            btn_respuesta[(int)r].gameObject.SetActive(false);
         }
     }
+
+
+    //Generar Repuesta incorrecta ramdon para 50/50 
+
+    public ArrayList GenerarRandom(int respuestaCorrecta)
+    {
+        ArrayList tempArray = new ArrayList();
+
+        int r1 = Random.Range(0, 4);
+        while (r1 == respuestaCorrecta)
+            r1 = Random.Range(0, 4);
+
+
+        int r2 = Random.Range(0, 4);
+        while ((r2 == respuestaCorrecta) || (r2 == r1))
+        {
+            r2 = Random.Range(0, 4);
+        }
+
+        tempArray.Add(r1);
+        tempArray.Add(r2);
+
+        return tempArray;
+    }
+
+
+
     //Fin de comodin 50/50.
 
     public void HabilitarRespuestas()
     {
+       
         for (int i = 0; i < respuesta.Length; i++)
         {
             btn_respuesta[i].gameObject.SetActive(true);

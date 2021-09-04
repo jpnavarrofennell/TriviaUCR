@@ -1373,6 +1373,7 @@ MonoBehaviour:
   - {fileID: 1791446772}
   - {fileID: 850438399}
   nivelPregunta: 0
+  btn_Comodin5050: {fileID: 1062193542}
   btn_respuesta:
   - {fileID: 1066643065}
   - {fileID: 1961767800}
