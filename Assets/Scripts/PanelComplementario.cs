@@ -13,6 +13,9 @@ public class PanelComplementario : MonoBehaviour
     public Text informacionComplementaria;
     public Game game;
 
+    private int nivelPregunta;
+    private int preguntaAlAzar;
+
     // Update is called once per frame
     void Update()
     {
@@ -29,5 +32,6 @@ public class PanelComplementario : MonoBehaviour
     {
         panelInformacionComplementaria.SetActive(true);
         //Cargar la informacion del banco de preguntas con la informacion complementaria
+        informacionComplementaria.text = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].informacionComplementaria;
     }
 }
