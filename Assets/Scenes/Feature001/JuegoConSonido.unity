@@ -1057,14 +1057,14 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: Muy Facil
     preguntas:
-    - sonido: {fileID: 0}
-      enunciado: Quien es Marty McFly
+    - sonido: {fileID: 8300000, guid: b93e93249f2df92468957d48d202aa13, type: 3}
+      enunciado: "\xBFA que ave corresponde el canto anterior?"
       respuestas:
-      - texto: Protagonista de volver al futuro
-      - texto: Protagonista de start trek
-      - texto: Protagonista de parque jurasico
-      - texto: Protagonista blade runner
-      respuestaCorrecta: 0
+      - texto: "P\xE1jaro Sargento"
+      - texto: "P\xE1jaro Carpintero"
+      - texto: "P\xE1jaro Pecho Amarillo"
+      - texto: "P\xE1jaro Yig\xFCirro"
+      respuestaCorrecta: 2
   - nombreDificultad: Facil
     preguntas:
     - sonido: {fileID: 0}
@@ -1082,6 +1082,7 @@ MonoBehaviour:
   - {fileID: 1791446772}
   - {fileID: 850438399}
   nivelPregunta: 0
+  preguntaAlAzar: 0
 --- !u!1 &1653311052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,7 +1420,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b93e93249f2df92468957d48d202aa13, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
