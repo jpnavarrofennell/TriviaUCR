@@ -12,6 +12,7 @@ public class Game : MonoBehaviour
     public Text[] respuesta;
     public int nivelPregunta;
     protected int preguntaAlAzar;
+    public PanelComplementario panelComplementario;
 
     // Start is called before the first frame update
     void Start()
@@ -67,8 +68,11 @@ public class Game : MonoBehaviour
             }
             else
             {
+                //Desplegar el panel de informacion complementaria ante una respuesta correcta
+                panelComplementario.Desplegar();
+
                 // subir de nivel
-                SelecionarPregunta();
+                //SelecionarPregunta();
             }
 
             return true;
