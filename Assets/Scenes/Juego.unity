@@ -1373,10 +1373,11 @@ MonoBehaviour:
   - {fileID: 1791446772}
   - {fileID: 850438399}
   nivelPregunta: 0
-  btn_respuesta0: {fileID: 1066643065}
-  btn_respuesta1: {fileID: 1961767800}
-  btn_respuesta2: {fileID: 1370401499}
-  btn_respuesta3: {fileID: 296100368}
+  btn_respuesta:
+  - {fileID: 1066643065}
+  - {fileID: 1961767800}
+  - {fileID: 1370401499}
+  - {fileID: 296100368}
 --- !u!1 &1653311052
 GameObject:
   m_ObjectHideFlags: 0

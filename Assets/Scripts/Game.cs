@@ -12,10 +12,8 @@ public class Game : MonoBehaviour
     public Text[] respuesta;
     public int nivelPregunta;
     protected int preguntaAlAzar;
-    public Button btn_respuesta0;
-    public Button btn_respuesta1;
-    public Button btn_respuesta2;
-    public Button btn_respuesta3;
+
+    public Button [] btn_respuesta;
 
     // Start is called before the first frame update
     void Start()
@@ -116,25 +114,7 @@ public class Game : MonoBehaviour
             }
             else
             {
-                if (i == 0)
-                {
-                    btn_respuesta0.gameObject.SetActive(false);
-                   
-                }
-                else if (i == 1)
-                {
-                    btn_respuesta1.gameObject.SetActive(false);
-                 
-                }
-                else if (i == 2)
-                {
-                    btn_respuesta2.gameObject.SetActive(false);
-               
-                }
-                else if (i == 3)
-                {
-                    btn_respuesta3.gameObject.SetActive(false);
-                }
+                btn_respuesta[i].gameObject.SetActive(false);
             }
 
         }
@@ -142,11 +122,12 @@ public class Game : MonoBehaviour
     //Fin de comodin 50/50.
 
     public void HabilitarRespuestas()
-    {           
-            btn_respuesta0.gameObject.SetActive(true);
-            btn_respuesta1.gameObject.SetActive(true);
-            btn_respuesta2.gameObject.SetActive(true);
-            btn_respuesta3.gameObject.SetActive(true);
+    {
+        for (int i = 0; i < respuesta.Length; i++)
+        {
+            btn_respuesta[i].gameObject.SetActive(true);
+        }
+
     }
 
 }
