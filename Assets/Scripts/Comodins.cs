@@ -50,7 +50,7 @@ public class Comodins : MonoBehaviour
         //fin
 
         //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
-        int respuestaCorrecta = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].respuestaCorrecta;
+        int respuestaCorrecta = RespuestaCorrecta(nivelPregunta, preguntaActual);
         ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta);
         foreach (var r in respuestasTemp)
         {
@@ -78,6 +78,11 @@ public class Comodins : MonoBehaviour
         tempArray.Add(r2);
 
         return tempArray;
+    }
+    public int RespuestaCorrecta(int nivelPreguntaParametro, int preguntaActualParametro)
+    {
+        int respuestaCorrecta = game.bancoDePreguntas[nivelPreguntaParametro].preguntas[preguntaActualParametro].respuestaCorrecta;
+        return respuestaCorrecta;
     }
 
 }
