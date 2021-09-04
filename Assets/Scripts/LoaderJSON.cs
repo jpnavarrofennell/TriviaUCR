@@ -15,7 +15,8 @@ public class LoaderJSON : MonoBehaviour
     public Game game;
 
     // Start is called before the first frame update
-    void Start() 
+    
+    void Awake() 
     {
         //https://answers.unity.com/questions/1533905/reading-json-file-1.html
 
