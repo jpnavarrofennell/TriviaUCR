@@ -1057,7 +1057,9 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: Muy Facil
     preguntas:
-    - enunciado: Quien es Marty McFly
+    - imagenComplementaria: {fileID: 21300000, guid: b4a2dcb42c6072f4bbac2e4c6897824e,
+        type: 3}
+      enunciado: Quien es Marty McFly
       respuestas:
       - texto: Protagonista de volver al futuro
       - texto: Protagonista de start trek
@@ -1066,7 +1068,8 @@ MonoBehaviour:
       respuestaCorrecta: 0
   - nombreDificultad: Facil
     preguntas:
-    - enunciado: Como se llama la nave insignia de Star Trek
+    - imagenComplementaria: {fileID: 0}
+      enunciado: Como se llama la nave insignia de Star Trek
       respuestas:
       - texto: Milenial Falcon
       - texto: Normandy
