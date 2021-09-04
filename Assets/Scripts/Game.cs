@@ -11,9 +11,9 @@ public class Game : MonoBehaviour
     public Text enunciado;
     public Text[] respuesta;
     public int nivelPregunta;
-    protected int preguntaAlAzar;
+    public int preguntaAlAzar;
 
-    public Button btn_Comodin5050;
+
     public Button [] btn_respuesta;
 
     // Start is called before the first frame update
@@ -83,65 +83,6 @@ public class Game : MonoBehaviour
             return false;
         }
     }
-
-
-
-    //Inicio Seleccionar comodin.
-    public void SeleccionarComodin(int comodin)
-    {
-        if(comodin==0){
-            Comodin5050();
-        }
-       
-    }
-
-    //Fin Seleccionar comodin.
-
-
-
-    //Comodins.
-
-        //Inicio comodin 50/50.
-    public void Comodin5050()
-    {
-
-        //Desabilita comodin 50/50
-        btn_Comodin5050.interactable = false;
-        //fin
-
-        //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
-        int respuestaCorrecta = bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].respuestaCorrecta;
-        ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta);
-        foreach (var r in respuestasTemp)
-        {
-            btn_respuesta[(int)r].gameObject.SetActive(false);
-        }
-    }
-
-
-    //Generar Repuesta incorrecta ramdon para 50/50 
-
-    public ArrayList GenerarRandom(int respuestaCorrecta)
-    {
-        ArrayList tempArray = new ArrayList();
-
-        int r1 = Random.Range(0, 4);
-        while (r1 == respuestaCorrecta)
-            r1 = Random.Range(0, 4);
-
-
-        int r2 = Random.Range(0, 4);
-        while ((r2 == respuestaCorrecta) || (r2 == r1))
-        {
-            r2 = Random.Range(0, 4);
-        }
-
-        tempArray.Add(r1);
-        tempArray.Add(r2);
-
-        return tempArray;
-    }
-
 
 
     //Fin de comodin 50/50.
