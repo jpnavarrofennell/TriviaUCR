@@ -50,7 +50,7 @@ public class Comodins : MonoBehaviour
         //fin
 
         //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
-        int respuestaCorrecta = RespuestaCorrecta(nivelPregunta, preguntaActual);
+        int respuestaCorrecta = RespuestaCorrecta(nivelPregunta, preguntaActual);//aquí utilizo el metodo Respuesta correcta con los paramentros necesarios para que me retorne la respuesta correcta 
         ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta);
         foreach (var r in respuestasTemp)
         {
@@ -79,10 +79,10 @@ public class Comodins : MonoBehaviour
 
         return tempArray;
     }
-    public int RespuestaCorrecta(int nivelPreguntaParametro, int preguntaActualParametro)
+    public int RespuestaCorrecta(int nivelPreguntaParametro, int preguntaActualParametro)//Metodo para returnar la respuesta correcta, con el fin de hacer el codigo más corto 
     {
-        int respuestaCorrecta = game.bancoDePreguntas[nivelPreguntaParametro].preguntas[preguntaActualParametro].respuestaCorrecta;
-        return respuestaCorrecta;
+        int respuestaCorrecta = game.bancoDePreguntas[nivelPreguntaParametro].preguntas[preguntaActualParametro].respuestaCorrecta;// que tome la respuesta correcta del bando de preguntas del nivel y la pregunta correspondiente que amerite
+        return respuestaCorrecta;// retorno de la respuesta correcta
     }
 
 }
