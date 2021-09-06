@@ -1349,25 +1349,101 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: Muy Facil
     preguntas:
-    - enunciado: Quien es Marty McFly
+    - enunciado: "\xBFC\xF3mo se llama el r\xEDo m\xE1s largo del mundo?  "
       respuestas:
-      - texto: Protagonista de volver al futuro
-      - texto: Protagonista de start trek
-      - texto: Protagonista de parque jurasico
-      - texto: Protagonista blade runner
+      - texto: Amazonas
+      - texto: Ganges
+      - texto: Nilo
+      - texto: Danubio
+      respuestaCorrecta: 2
+      informacionComplementaria: "Es un r\xEDo que se encuentra en el continente
+        de Am\xE9rica"
+    - enunciado: "\xBFD\xF3nde se originaron los juegos ol\xEDmpicos?  "
+      respuestas:
+      - texto: Inglaterra
+      - texto: Grecia
+      - texto: Italia
+      - texto: "Espa\xF1a"
+      respuestaCorrecta: 1
+      informacionComplementaria: "Se celebraron por primera vez hace 2800 a\xF1os,
+        en la regi\xF3n de Olimpia."
+    - enunciado: "\xBFCu\xE1l es el disco m\xE1s vendido de la historia?  "
+      respuestas:
+      - texto: El guardaespaldas
+      - texto: Back in Black
+      - texto: Music box
+      - texto: Thriller
+      respuestaCorrecta: 3
+      informacionComplementaria: "Este alb\xFAm fue estrenado por primera vez  en
+        la \xE9poca de los 90."
+    - enunciado: "\xBFCu\xE1l es la telenovela que se ha traducido en m\xE1s de 180
+        pa\xEDses? "
+      respuestas:
+      - texto: "Pasi\xF3n de gavilanes"
+      - texto: Betty la fea
+      - texto: "Coraz\xF3n Salvaje "
+      - texto: La hija del mariachi
+      respuestaCorrecta: 1
+      informacionComplementaria: " En 1999 en la televisi\xF3n Colombiana, se emiti\xF3
+        el primer cap\xEDtulo de esta telenovela"
+    - enunciado: "\xBFCu\xE1l es el libro sagrado del Islam ?"
+      respuestas:
+      - texto: "Cor\xE1n"
+      - texto: Biblia
+      - texto: "Tor\xE1"
+      - texto: Talmud
       respuestaCorrecta: 0
-      informacionComplementaria: Marty McFly interpretado por el actor x fue el protagonista
-        de...
+      informacionComplementaria: 'El profeta Mahoma es el gran referente en este
+        libro. '
   - nombreDificultad: Facil
     preguntas:
-    - enunciado: Como se llama la nave insignia de Star Trek
+    - enunciado: "\xBFC\xF3mo se llama el jugador de f\xFAtbol que m\xE1s ha ganado
+        t\xEDtulos en la historia?  "
       respuestas:
-      - texto: Milenial Falcon
-      - texto: Normandy
-      - texto: Enterprice
-      - texto: Delorean
+      - texto: "Mbapp\xE9"
+      - texto: Cristiano Ronaldo
+      - texto: Dani Alves
+      - texto: Messi
       respuestaCorrecta: 2
-      informacionComplementaria: 
+      informacionComplementaria: "Es reconocido por el apodo de \"Poti\" en un famoso
+        equipo Fr\xE1nces ."
+    - enunciado: "\xBFQu\xE9 persona seg\xFAn la historia se dice que traicion\xF3
+        a Jes\xFAs?"
+      respuestas:
+      - texto: Abel
+      - texto: 'Lucifer '
+      - texto: Cain
+      - texto: Judas
+      respuestaCorrecta: 3
+      informacionComplementaria: Hay un dicho reconocido por este nombre llamado
+        "El beso de ..."
+    - enunciado: "\xBFC\xF3mo se llama el actor protagonista de la pel\xEDcula \u201CRocky\u201D?  "
+      respuestas:
+      - texto: Brad pitt
+      - texto: Sylvester Stallone
+      - texto: George Cloney
+      - texto: 'Bruce Willis '
+      respuestaCorrecta: 1
+      informacionComplementaria: "Fue el actor principal de otra saga de pel\xEDculas
+        muy reconocida llamada \"Rambo\". "
+    - enunciado: "\xBFCu\xE1l se dice que es el metal m\xE1s caro del mundo?"
+      respuestas:
+      - texto: Oro
+      - texto: plata
+      - texto: rodio
+      - texto: cobre
+      respuestaCorrecta: 2
+      informacionComplementaria: "Es un metal blanco poco abundante y muy resistente
+        a la corrosi\xF3n."
+    - enunciado: "\xBFEn qu\xE9 a\xF1o se acab\xF3 la II Guerra Mundial?  "
+      respuestas:
+      - texto: 1945
+      - texto: 1944
+      - texto: 1946
+      - texto: 1943
+      respuestaCorrecta: 0
+      informacionComplementaria: "Seg\xFAn la historia, se termin\xF3 el 2 de septiembre
+        de ese a\xF1o, con la rendici\xF3n Alemana. "
   enunciado: {fileID: 1047069286}
   respuesta:
   - {fileID: 566457291}
