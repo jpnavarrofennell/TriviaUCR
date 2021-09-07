@@ -28,8 +28,10 @@ public class AudioManager : MonoBehaviour
         nivelPregunta = game.nivelPregunta;
         preguntaActual = game.preguntaAlAzar;
 
+        //Si la pregunta elegida al azar tiene un sonido asignado...
         if (game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].sonido != null)
         {
+            //se carga el recurso
             audioSource.clip = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].sonido;
         }
         else
