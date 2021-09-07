@@ -1630,7 +1630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d369cd01e9d79479ed4821fc12c48e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreArchivo: CienciaFiccion.json
+  nombreArchivo: CienciaFiccion
   game: {fileID: 1436520456}
 --- !u!4 &1992505267
 Transform:

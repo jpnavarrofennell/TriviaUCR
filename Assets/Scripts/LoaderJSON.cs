@@ -24,7 +24,7 @@ public class LoaderJSON : MonoBehaviour
         //game.bancoDePreguntas = null;
 
         // ubicacion del archivo
-        string archivoPath = Application.streamingAssetsPath + "/" + nombreArchivo;
+        string archivoPath = Application.streamingAssetsPath + "/" + nombreArchivo + ".json";
 
         string jsonString = File.ReadAllText(archivoPath);
 
