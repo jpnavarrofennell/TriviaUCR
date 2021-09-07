@@ -1099,6 +1099,15 @@ MonoBehaviour:
       - texto: Rocinante
       - texto: Pegaso
       respuestaCorrecta: 2
+    - imagenComplementaria: {fileID: 21300000, guid: 6fa6a2b68ff222847a4ab7427f56febd,
+        type: 3}
+      enunciado: "\xBFC\xF3mo se llama este traje de super h\xE9roe\u201D?"
+      respuestas:
+      - texto: Mark2
+      - texto: Buster
+      - texto: War machine
+      - texto: Hulkbuster
+      respuestaCorrecta: 3
   enunciado: {fileID: 1047069286}
   respuesta:
   - {fileID: 566457291}
