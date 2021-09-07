@@ -1067,14 +1067,6 @@ MonoBehaviour:
       respuestaCorrecta: 2
   - nombreDificultad: Facil
     preguntas:
-    - sonido: {fileID: 0}
-      enunciado: Como se llama la nave insignia de Star Trek
-      respuestas:
-      - texto: Milenial Falcon
-      - texto: Normandy
-      - texto: Enterprice
-      - texto: Delorean
-      respuestaCorrecta: 2
     - sonido: {fileID: 8300000, guid: 0cce55888e7a85b4ca7b84296a16296e, type: 3}
       enunciado: "Como se llama la Canci\xF3n y a que juego pertenece?"
       respuestas:
@@ -1082,6 +1074,16 @@ MonoBehaviour:
       - texto: Megalovania -Undertale
       - texto: Wet Hands - Minecraft
       - texto: Field of Hopes and Dreams - Deltarune
+      respuestaCorrecta: 1
+  - nombreDificultad: Regular
+    preguntas:
+    - sonido: {fileID: 8300000, guid: ff16553240eb4f74fa0dd2ea3ebeb156, type: 3}
+      enunciado: "\xBFA cual personaje animado le pertenece esta risa?"
+      respuestas:
+      - texto: Barnie
+      - texto: Calamardo
+      - texto: Gumball
+      - texto: Scooby
       respuestaCorrecta: 1
   enunciado: {fileID: 1047069286}
   respuesta:
