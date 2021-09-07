@@ -1087,6 +1087,18 @@ MonoBehaviour:
       - texto: Enterprice
       - texto: Delorean
       respuestaCorrecta: 2
+  - nombreDificultad: Regular
+    preguntas:
+    - imagenComplementaria: {fileID: 21300000, guid: 28a574b8b2264e2428be2f2538288530,
+        type: 3}
+      enunciado: "\xBFC\xF3mo se llama la nave de los protagonistas de la serie \u201CThe
+        Expanse\u201D?"
+      respuestas:
+      - texto: "Buc\xE9falo"
+      - texto: Milian
+      - texto: Rocinante
+      - texto: Pegaso
+      respuestaCorrecta: 2
   enunciado: {fileID: 1047069286}
   respuesta:
   - {fileID: 566457291}
