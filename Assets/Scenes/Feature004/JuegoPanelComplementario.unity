@@ -1444,6 +1444,105 @@ MonoBehaviour:
       respuestaCorrecta: 0
       informacionComplementaria: "Seg\xFAn la historia, se termin\xF3 el 2 de septiembre
         de ese a\xF1o, con la rendici\xF3n Alemana. "
+  - nombreDificultad: Medio
+    preguntas:
+    - enunciado: "\xBFEn qu\xE9 a\xF1o muri\xF3 Bob Marley? "
+      respuestas:
+      - texto: 1981
+      - texto: 1995
+      - texto: 1990
+      - texto: 2005
+      respuestaCorrecta: 0
+      informacionComplementaria: "Muri\xF3 de un c\xE1ncer, para el a\xF1o 1980,
+        dicho c\xE1ncer hab\xEDa avanzado en su met\xE1stasis al cerebro, pulmones,
+        h\xEDgado y est\xF3mago."
+    - enunciado: "\xBFQui\xE9n compuso la canci\xF3n Nice to meet ya? "
+      respuestas:
+      - texto: Billie Eilish
+      - texto: Madonna
+      - texto: "Beyonc\xE9"
+      - texto: Meghan Trainor
+      respuestaCorrecta: 3
+      informacionComplementaria: "\"Nice to Meet Ya\" es una canci\xF3n de la cantante
+        estadounidense Meghan Trainor y la rapera trinitense Nicki Minaj. Fue lanzada
+        el 31 de enero de 2020, como el tercer sencillo del tercer \xE1lbum de estudio
+        de Trainor, Treat Myself."
+    - enunciado: "\xBFCu\xE1l es la bebida m\xE1s popular a lo largo del mundo?  "
+      respuestas:
+      - texto: Vino
+      - texto: Cerveza
+      - texto: Coca Cola
+      - texto: "T\xE9"
+      respuestaCorrecta: 3
+      informacionComplementaria: "El t\xE9, tiene una antig\xFCedad de dos mil a\xF1os
+        mayor que el caf\xE9, adem\xE1s posee efectos antioxidantes y anticancer\xEDgenos."
+    - enunciado: "\xBFCu\xE1nto dur\xF3 la conocida guerra de los 100 a\xF1os?  "
+      respuestas:
+      - texto: 100
+      - texto: 116
+      - texto: 110
+      - texto: 105
+      respuestaCorrecta: 1
+      informacionComplementaria: "La guerra de los cien a\xF1os (1337-1453) fue un
+        conflicto intermitente entre Inglaterra y Francia que dur\xF3 116 a\xF1os."
+    - enunciado: "\xBFQui\xE9n es Claudia Poll?  "
+      respuestas:
+      - texto: Cantante
+      - texto: Ciclista
+      - texto: Nadadora
+      - texto: Presentadora
+      respuestaCorrecta: 2
+      informacionComplementaria: "Es una nadadora costarricense, la primera deportista
+        de Costa Rica en ganar la primera y \xFAnica medalla de oro de su pa\xEDs
+        en unos Juegos Ol\xEDmpicos, esto se dio en Atlanta 1996."
+  - nombreDificultad: Dificil
+    preguntas:
+    - enunciado: "\xBFEn qu\xE9 a\xF1o ocurri\xF3 el terremoto de Cartago de Costa
+        Rica?  "
+      respuestas:
+      - texto: 1940
+      - texto: 1915
+      - texto: 1955
+      - texto: 1910
+      respuestaCorrecta: 3
+      informacionComplementaria: "El 13 de abril de 1910 a las 12:37 se di\xF3 un
+        sismo que posiblemente era de tipo somero, con una magnitud de 5.8Ms, al
+        sureste de San Jos\xE9, cerca del Tablazo."
+    - enunciado: "\xBFQu\xE9 banda tiene m\xE1s premios Grammy en toda la historia?  "
+      respuestas:
+      - texto: U2
+      - texto: Queen
+      - texto: Metallica
+      - texto: Kiss
+      respuestaCorrecta: 0
+      informacionComplementaria: U2 se ubica en el puesto 2 de Grammy's ganados por
+        un grupo, tienen una cantidad total de 22 Premios Grammy ganados.
+    - enunciado: "\xBFA qu\xE9 cantante se le conoce como El Sol de M\xE9xico.?"
+      respuestas:
+      - texto: "Vicente Fern\xE1ndez"
+      - texto: Antonio Aguilar
+      - texto: Luis Miguel
+      - texto: Cristian Castro
+      respuestaCorrecta: 2
+      informacionComplementaria: "Es un apodo que le dio su productor, una vez hicieron
+        una especie de concurso para decidir como quer\xEDan decirle a Luis Miguel,
+        y su tarjeta que dec\xEDa \"El Sol\" gan\xF3."
+    - enunciado: x
+      respuestas:
+      - texto: 100
+      - texto: 116
+      - texto: 110
+      - texto: 105
+      respuestaCorrecta: 1
+      informacionComplementaria: x
+    - enunciado: x
+      respuestas:
+      - texto: Cantante
+      - texto: Ciclista
+      - texto: Nadadora
+      - texto: Presentadora
+      respuestaCorrecta: 2
+      informacionComplementaria: x
   enunciado: {fileID: 1047069286}
   respuesta:
   - {fileID: 566457291}
