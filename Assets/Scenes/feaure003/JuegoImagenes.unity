@@ -1087,6 +1087,15 @@ MonoBehaviour:
       - texto: Enterprice
       - texto: Delorean
       respuestaCorrecta: 2
+    - imagenComplementaria: {fileID: 21300000, guid: a7b1e096770f4c9449f14dff7d623188,
+        type: 3}
+      enunciado: "En que a\xF1o salio la primera pelicula de Odisea"
+      respuestas:
+      - texto: 2001
+      - texto: 1968
+      - texto: 1972
+      - texto: 2010
+      respuestaCorrecta: 1
   - nombreDificultad: Regular
     preguntas:
     - imagenComplementaria: {fileID: 21300000, guid: 28a574b8b2264e2428be2f2538288530,
