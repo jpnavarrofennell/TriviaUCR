@@ -12,6 +12,7 @@ public class Game : MonoBehaviour
     public Text[] respuesta;
     public int nivelPregunta;
     public int preguntaAlAzar;
+    public PanelComplementario panelComplementario;
     public Button [] btn_respuesta;
 
     // Start is called before the first frame update
@@ -62,6 +63,7 @@ public class Game : MonoBehaviour
         {
             // reinicio del problema con mayor dificultad
             nivelPregunta++;
+
             if (nivelPregunta == bancoDePreguntas.Length)
             {
                 // deplegar la pantalla de fin de juego ganado!
@@ -69,10 +71,9 @@ public class Game : MonoBehaviour
             }
             else
             {
-                // subir de nivel
-
+                //Desplegar el panel de informacion complementaria ante una respuesta correcta
+                panelComplementario.Desplegar();
                 HabilitarRespuestas();
-                SelecionarPregunta();
             }
 
             return true;
