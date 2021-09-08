@@ -33,6 +33,10 @@ public class AudioManager : MonoBehaviour
         {
             //se carga el recurso
             audioSource.clip = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].sonido;
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
         }
         else
         {

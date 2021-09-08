@@ -1091,9 +1091,9 @@ MonoBehaviour:
       enunciado: Pregunta
       respuestas:
       - texto: 0
+      - texto: 1
       - texto: 2
       - texto: 3
-      - texto: 4
       respuestaCorrecta: 0
   - nombreDificultad: "Muy Dif\xEDcil"
     preguntas:
