@@ -1,7 +1,7 @@
 {
     "bancoDePreguntas": [
         {
-            "nombreDificultad": "Muy Fácil",
+            "nombreDificultad": "Muy FÃ¡cil",
             "preguntas": [
                 {
                     "enunciado": "1. He __ a boy",
@@ -14,7 +14,7 @@
                     "respuestaCorrecta": 1
                 },
                 {
-                    "enunciado": "1. Sinónimo de 'house'",
+                    "enunciado": "1. SinÃ³nimo de 'house'",
                     "respuestas": [
                         { "texto": "A) Horse" },
                         { "texto": "B) Hut" },
@@ -24,7 +24,7 @@
                     "respuestaCorrecta": 3
                 },
                 {
-                    "enunciado": "1. Antónimo de 'día'",
+                    "enunciado": "1. AntÃ³nimo de 'dÃ­a'",
                     "respuestas": [
                         { "texto": "A) Now" },
                         { "texto": "B) Knight" },
@@ -34,7 +34,7 @@
                     "respuestaCorrecta": 3
                 },
                 {
-                    "enunciado": "1. 'Blanco' en inglés",
+                    "enunciado": "1. 'Blanco' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Yellow" },
                         { "texto": "B) Black" },
@@ -56,10 +56,10 @@
             ]
         },
         {
-            "nombreDificultad": "Fácil",
+            "nombreDificultad": "FÃ¡cil",
             "preguntas": [
                 {
-                    "enunciado": "2. 'Actualmente' en inglés",
+                    "enunciado": "2. 'Actualmente' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Now" },
                         { "texto": "B) Actually" },
@@ -69,7 +69,7 @@
                     "respuestaCorrecta": 2
                 },
                 {
-                    "enunciado": "2. Plural de 'pie' en inglés",
+                    "enunciado": "2. Plural de 'pie' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Foot" },
                         { "texto": "B) Feel" },
@@ -79,7 +79,7 @@
                     "respuestaCorrecta": 2
                 },
                 {
-                    "enunciado": "2. Plural de 'diente' en inglés",
+                    "enunciado": "2. Plural de 'diente' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Teeth" },
                         { "texto": "B) Tongue" },
@@ -99,7 +99,7 @@
                     "respuestaCorrecta": 2
                 },
                 {
-                    "enunciado": "2. 'Cincuenta' en inglés",
+                    "enunciado": "2. 'Cincuenta' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Fifteen" },
                         { "texto": "B) Fifty" },
@@ -114,7 +114,7 @@
             "nombreDificultad": "Normal",
             "preguntas": [
                 {
-                    "enunciado": "3. 'Hay 5 manzanas' en inglés",
+                    "enunciado": "3. 'Hay 5 manzanas' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) There is 5 apples" },
                         { "texto": "B) They're 5 apples" },
@@ -124,7 +124,7 @@
                     "respuestaCorrecta": 2
                 },
                 {
-                    "enunciado": "3. 'Hay un lapicero' en inglés",
+                    "enunciado": "3. 'Hay un lapicero' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) They're a pen" },
                         { "texto": "B) There are a pen" },
@@ -134,7 +134,7 @@
                     "respuestaCorrecta": 3
                 },
                 {
-                    "enunciado": "3. 'Precio' en inglés",
+                    "enunciado": "3. 'Precio' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Pride" },
                         { "texto": "B) Prize" },
@@ -144,7 +144,7 @@
                     "respuestaCorrecta": 3
                 },
                 {
-                    "enunciado": "3. 'Simple' en inglés",
+                    "enunciado": "3. 'Simple' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) Plane" },
                         { "texto": "B) Plain" },
@@ -154,7 +154,7 @@
                     "respuestaCorrecta": 1
                 },
                 {
-                    "enunciado": "3. 'Mirar' en inglés",
+                    "enunciado": "3. 'Mirar' en inglÃ©s",
                     "respuestas": [
                         { "texto": "A) See" },
                         { "texto": "B) Watch" },
@@ -166,10 +166,10 @@
             ]
         },
         {
-            "nombreDificultad": "Difícil",
+            "nombreDificultad": "DifÃ­cil",
             "preguntas": [
                 {
-                    "enunciado": "4. Sinónimo de 'courtain'",
+                    "enunciado": "4. SinÃ³nimo de 'courtain'",
                     "respuestas": [
                         { "texto": "A) Counter" },
                         { "texto": "B) Drape" },
@@ -179,12 +179,12 @@
                     "respuestaCorrecta": 1
                 },
                 {
-                    "enunciado": "4. Cómo se dice 'Perdón' (Porque no se a entendido)",
+                    "enunciado": "4. CÃ³mo se dice 'PerdÃ³n' (Porque no se a entendido)",
                     "respuestas": [
                         { "texto": "A) Excuse me" },
                         { "texto": "B) What did you say?" },
                         { "texto": "C) Forgive me" },
-                        { "texto": "D) I didn’t mean" }
+                        { "texto": "D) I didnâ€™t mean" }
                     ],
                     "respuestaCorrecta": 1
                 },
@@ -192,8 +192,8 @@
                     "enunciado": "4. Para que se utiliza la siguiente frase: 'How's life?'",
                     "respuestas": [
                         { "texto": "A) Para saber el trabajo" },
-                        { "texto": "B) Para saber cómo vive" },
-                        { "texto": "C) Para saber cómo se encuentra" },
+                        { "texto": "B) Para saber cÃ³mo vive" },
+                        { "texto": "C) Para saber cÃ³mo se encuentra" },
                         { "texto": "D) Para saber en donde vive" }
                     ],
                     "respuestaCorrecta": 2
@@ -221,10 +221,10 @@
             ]
         },
         {
-            "nombreDificultad": "Muy Difícil",
+            "nombreDificultad": "Muy DifÃ­cil",
             "preguntas": [
                 {
-                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Hit the road'",
+                    "enunciado": "5. En quÃ© ocasiÃ³n se utiliza la siguiente frase: 'Hit the road'",
                     "respuestas": [
                         { "texto": "A) Alentar a alguien" },
                         { "texto": "B) Aconsejar a alguien" },
@@ -234,17 +234,17 @@
                     "respuestaCorrecta": 0
                 },
                 {
-                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Cold feet'",
+                    "enunciado": "5. En quÃ© ocasiÃ³n se utiliza la siguiente frase: 'Cold feet'",
                     "respuestas": [
                         { "texto": "A) Asustarse mucho con algo" },
                         { "texto": "B) Estar muy nervioso por algo" },
-                        { "texto": "C) Sentirse con mucho frío" },
+                        { "texto": "C) Sentirse con mucho frÃ­o" },
                         { "texto": "D) Estar impactado por algo" }
                     ],
                     "respuestaCorrecta": 1
                 },
                 {
-                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Off the hinge'",
+                    "enunciado": "5. En quÃ© ocasiÃ³n se utiliza la siguiente frase: 'Off the hinge'",
                     "respuestas": [
                         { "texto": "A) Desubicado" },
                         { "texto": "B) Denigrante" },
@@ -254,17 +254,17 @@
                     "respuestaCorrecta": 2
                 },
                 {
-                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Go cold turkey'",
+                    "enunciado": "5. En quÃ© ocasiÃ³n se utiliza la siguiente frase: 'Go cold turkey'",
                     "respuestas": [
-                        { "texto": "A) Dejar un hábito de repente" },
-                        { "texto": "B) Sentirse con mucho frío" },
+                        { "texto": "A) Dejar un hÃ¡bito de repente" },
+                        { "texto": "B) Sentirse con mucho frÃ­o" },
                         { "texto": "C) Asustarse mucho con algo" },
                         { "texto": "D) Dejar de sentirse bien" }
                     ],
                     "respuestaCorrecta": 0
                 },
                 {
-                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Hit the book'",
+                    "enunciado": "5. En quÃ© ocasiÃ³n se utiliza la siguiente frase: 'Hit the book'",
                     "respuestas": [
                         { "texto": "A) Ir a pelear" },
                         { "texto": "B) Ir a organizarse" },
