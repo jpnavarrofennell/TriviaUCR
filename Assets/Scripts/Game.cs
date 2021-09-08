@@ -72,7 +72,15 @@ public class Game : MonoBehaviour
             else
             {
                 //Desplegar el panel de informacion complementaria ante una respuesta correcta
-                panelComplementario.Desplegar();
+                try
+                {
+                    panelComplementario.Desplegar();
+                }
+                catch(System.Exception ex)
+                {
+                    Debug.LogError("Se te olvido configurar el panel de información complementaria: " + ex.Message);
+                }
+                
                 HabilitarRespuestas();
             }
 
