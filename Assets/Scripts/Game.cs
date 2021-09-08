@@ -12,8 +12,6 @@ public class Game : MonoBehaviour
     public Text[] respuesta;
     public int nivelPregunta;
     public int preguntaAlAzar;
-
-
     public Button [] btn_respuesta;
 
     // Start is called before the first frame update
