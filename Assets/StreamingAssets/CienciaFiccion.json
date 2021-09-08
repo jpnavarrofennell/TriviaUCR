@@ -1,0 +1,35 @@
+{
+    "bancoDePreguntas": [
+        {
+            "nombreDificultad": "lvl0",
+            "preguntas": [
+                {
+                    "enunciado": "Cuanto es 1+1",
+                    "respuestas": [
+                        { "texto": "3" },
+                        { "texto": "1" },
+                        { "texto": "2" },
+                        { "texto": "0" }
+                    ],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "lvl1",
+            "preguntas": [
+                {
+                    "enunciado": "Cuanto es 2+2",
+                    "respuestas": [
+                        { "texto": "4" },
+                        { "texto": "0" },
+                        { "texto": "2" },
+                        { "texto": "3" }
+                    ],
+                    "respuestaCorrecta": 0
+                }
+            ]
+        }
+    ]
+    
+}

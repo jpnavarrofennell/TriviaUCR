@@ -1,0 +1,280 @@
+{
+    "bancoDePreguntas": [
+        {
+            "nombreDificultad": "Muy Fácil",
+            "preguntas": [
+                {
+                    "enunciado": "1. He __ a boy",
+                    "respuestas": [
+                        { "texto": "A) Are" },
+                        { "texto": "B) Is" },
+                        { "texto": "C) Am" },
+                        { "texto": "D) Will" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "1. Sinónimo de 'house'",
+                    "respuestas": [
+                        { "texto": "A) Horse" },
+                        { "texto": "B) Hut" },
+                        { "texto": "C) Hunter" },
+                        { "texto": "D) Home" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "1. Antónimo de 'día'",
+                    "respuestas": [
+                        { "texto": "A) Now" },
+                        { "texto": "B) Knight" },
+                        { "texto": "C) Darkness" },
+                        { "texto": "D) Night" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "1. 'Blanco' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Yellow" },
+                        { "texto": "B) Black" },
+                        { "texto": "C) White" },
+                        { "texto": "D) Blue" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "1. They __ students",
+                    "respuestas": [
+                        { "texto": "A) Are" },
+                        { "texto": "B) Am" },
+                        { "texto": "C) Is" },
+                        { "texto": "D) Will" }
+                    ],
+                    "respuestaCorrecta": 0
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Fácil",
+            "preguntas": [
+                {
+                    "enunciado": "2. 'Actualmente' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Now" },
+                        { "texto": "B) Actually" },
+                        { "texto": "C) Nowadays" },
+                        { "texto": "D) Perhaps" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "2. Plural de 'pie' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Foot" },
+                        { "texto": "B) Feel" },
+                        { "texto": "C) Feet" },
+                        { "texto": "D) Food" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "2. Plural de 'diente' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Teeth" },
+                        { "texto": "B) Tongue" },
+                        { "texto": "C) Tooth" },
+                        { "texto": "D) Too" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "2. I ______ crazy",
+                    "respuestas": [
+                        { "texto": "A) Isn't" },
+                        { "texto": "B) Not" },
+                        { "texto": "C) Am not" },
+                        { "texto": "D) Aren't" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "2. 'Cincuenta' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Fifteen" },
+                        { "texto": "B) Fifty" },
+                        { "texto": "C) Five" },
+                        { "texto": "D) Fire" }
+                    ],
+                    "respuestaCorrecta": 1
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Normal",
+            "preguntas": [
+                {
+                    "enunciado": "3. 'Hay 5 manzanas' en inglés",
+                    "respuestas": [
+                        { "texto": "A) There is 5 apples" },
+                        { "texto": "B) They're 5 apples" },
+                        { "texto": "C) There are 5 apples" },
+                        { "texto": "D) It's 5 apples" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "3. 'Hay un lapicero' en inglés",
+                    "respuestas": [
+                        { "texto": "A) They're a pen" },
+                        { "texto": "B) There are a pen" },
+                        { "texto": "C) It's a pen" },
+                        { "texto": "D) There is a pen" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "3. 'Precio' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Pride" },
+                        { "texto": "B) Prize" },
+                        { "texto": "C) Pricey" },
+                        { "texto": "D) Price" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "3. 'Simple' en inglés",
+                    "respuestas": [
+                        { "texto": "A) Plane" },
+                        { "texto": "B) Plain" },
+                        { "texto": "C) Plan" },
+                        { "texto": "D) Place" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "3. 'Mirar' en inglés",
+                    "respuestas": [
+                        { "texto": "A) See" },
+                        { "texto": "B) Watch" },
+                        { "texto": "C) Hear" },
+                        { "texto": "D) Look" }
+                    ],
+                    "respuestaCorrecta": 3
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Difícil",
+            "preguntas": [
+                {
+                    "enunciado": "4. Sinónimo de 'courtain'",
+                    "respuestas": [
+                        { "texto": "A) Counter" },
+                        { "texto": "B) Drape" },
+                        { "texto": "C) Drapery" },
+                        { "texto": "D) Cushion" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "4. Cómo se dice 'Perdón' (Porque no se a entendido)",
+                    "respuestas": [
+                        { "texto": "A) Excuse me" },
+                        { "texto": "B) What did you say?" },
+                        { "texto": "C) Forgive me" },
+                        { "texto": "D) I didn’t mean" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "4. Para que se utiliza la siguiente frase: 'How's life?'",
+                    "respuestas": [
+                        { "texto": "A) Para saber el trabajo" },
+                        { "texto": "B) Para saber cómo vive" },
+                        { "texto": "C) Para saber cómo se encuentra" },
+                        { "texto": "D) Para saber en donde vive" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "4. Para que se utiliza la siguiente frase: 'Can't complain'",
+                    "respuestas": [
+                        { "texto": "A) No me puedo quejar" },
+                        { "texto": "B) No lo puedo realizar" },
+                        { "texto": "C) No me puedo quedar" },
+                        { "texto": "D) No lo puedo asimilar" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "4. Para que se utiliza la siguiente frase: 'It's very kind of you'",
+                    "respuestas": [
+                        { "texto": "A) Estoy muy orgulloso de ti" },
+                        { "texto": "B) Espero no se mucha molestia" },
+                        { "texto": "C) Es muy parecido a ti" },
+                        { "texto": "D) Es muy amable de su parte" }
+                    ],
+                    "respuestaCorrecta": 3
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Muy Difícil",
+            "preguntas": [
+                {
+                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Hit the road'",
+                    "respuestas": [
+                        { "texto": "A) Alentar a alguien" },
+                        { "texto": "B) Aconsejar a alguien" },
+                        { "texto": "C) Mentir a alguien" },
+                        { "texto": "D) Discutir con alguien" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Cold feet'",
+                    "respuestas": [
+                        { "texto": "A) Asustarse mucho con algo" },
+                        { "texto": "B) Estar muy nervioso por algo" },
+                        { "texto": "C) Sentirse con mucho frío" },
+                        { "texto": "D) Estar impactado por algo" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Off the hinge'",
+                    "respuestas": [
+                        { "texto": "A) Desubicado" },
+                        { "texto": "B) Denigrante" },
+                        { "texto": "C) Divertido" },
+                        { "texto": "D) Asombroso" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Go cold turkey'",
+                    "respuestas": [
+                        { "texto": "A) Dejar un hábito de repente" },
+                        { "texto": "B) Sentirse con mucho frío" },
+                        { "texto": "C) Asustarse mucho con algo" },
+                        { "texto": "D) Dejar de sentirse bien" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Hit the book'",
+                    "respuestas": [
+                        { "texto": "A) Ir a pelear" },
+                        { "texto": "B) Ir a organizarse" },
+                        { "texto": "C) Ir a estudiar" },
+                        { "texto": "D) Ir a desahogarse" }
+                    ],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        }
+    ]
+    
+}
