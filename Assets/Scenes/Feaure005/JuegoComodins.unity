@@ -868,8 +868,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1436520456}
-        m_TargetAssemblyTypeName: Game, Assembly-CSharp
+      - m_Target: {fileID: 1436520457}
+        m_TargetAssemblyTypeName: Comodins, Assembly-CSharp
         m_MethodName: SeleccionarComodin
         m_Mode: 3
         m_Arguments:
@@ -1302,6 +1302,7 @@ GameObject:
   - component: {fileID: 1436520455}
   - component: {fileID: 1436520454}
   - component: {fileID: 1436520456}
+  - component: {fileID: 1436520457}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -1350,8 +1351,7 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: Muy Facil
     preguntas:
-    - sonido: {fileID: 8300000, guid: b93e93249f2df92468957d48d202aa13, type: 3}
-      enunciado: El canto de esta ave corresponde a
+    - enunciado: Quien es Marty McFly
       respuestas:
       - texto: Protagonista de volver al futuro
       - texto: Protagonista de start trek
@@ -1360,8 +1360,7 @@ MonoBehaviour:
       respuestaCorrecta: 0
   - nombreDificultad: Facil
     preguntas:
-    - sonido: {fileID: 0}
-      enunciado: Como se llama la nave insignia de Star Trek
+    - enunciado: Como se llama la nave insignia de Star Trek
       respuestas:
       - texto: Milenial Falcon
       - texto: Normandy
@@ -1375,13 +1374,28 @@ MonoBehaviour:
   - {fileID: 1791446772}
   - {fileID: 850438399}
   nivelPregunta: 0
-  btn_Comodin5050: {fileID: 1062193542}
+  preguntaAlAzar: 0
   btn_respuesta:
   - {fileID: 1066643065}
   - {fileID: 1961767800}
   - {fileID: 1370401499}
   - {fileID: 296100368}
-
+--- !u!114 &1436520457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436520453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c7494c2748d75409ef43c3adb5007a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btn_Comodin5050: {fileID: 1062193542}
+  game: {fileID: 1436520456}
+  nivelPregunta: 0
+  preguntaActual: 0
 --- !u!1 &1653311052
 GameObject:
   m_ObjectHideFlags: 0
