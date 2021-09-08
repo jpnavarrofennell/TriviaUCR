@@ -1057,7 +1057,8 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: Muy Facil
     preguntas:
-    - enunciado: Quien es Marty McFly
+    - sonido: {fileID: 8300000, guid: b93e93249f2df92468957d48d202aa13, type: 3}
+      enunciado: El canto de esta ave corresponde a
       respuestas:
       - texto: Protagonista de volver al futuro
       - texto: Protagonista de start trek
@@ -1066,7 +1067,8 @@ MonoBehaviour:
       respuestaCorrecta: 0
   - nombreDificultad: Facil
     preguntas:
-    - enunciado: Como se llama la nave insignia de Star Trek
+    - sonido: {fileID: 0}
+      enunciado: Como se llama la nave insignia de Star Trek
       respuestas:
       - texto: Milenial Falcon
       - texto: Normandy
@@ -1080,6 +1082,7 @@ MonoBehaviour:
   - {fileID: 1791446772}
   - {fileID: 850438399}
   nivelPregunta: 0
+  preguntaAlAzar: 0
 --- !u!1 &1653311052
 GameObject:
   m_ObjectHideFlags: 0

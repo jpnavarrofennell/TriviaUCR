@@ -1085,6 +1085,26 @@ MonoBehaviour:
       - texto: Gumball
       - texto: Scooby
       respuestaCorrecta: 1
+  - nombreDificultad: "Dif\xEDcil"
+    preguntas:
+    - sonido: {fileID: 0}
+      enunciado: Pregunta
+      respuestas:
+      - texto: 0
+      - texto: 2
+      - texto: 3
+      - texto: 4
+      respuestaCorrecta: 0
+  - nombreDificultad: "Muy Dif\xEDcil"
+    preguntas:
+    - sonido: {fileID: 0}
+      enunciado: Pregunta
+      respuestas:
+      - texto: 0
+      - texto: 1
+      - texto: 2
+      - texto: 3
+      respuestaCorrecta: 0
   enunciado: {fileID: 1047069286}
   respuesta:
   - {fileID: 566457291}
