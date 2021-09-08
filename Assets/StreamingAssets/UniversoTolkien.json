@@ -1,0 +1,287 @@
+{
+  "bancoDePreguntas": [
+    {
+      "nombreDificultad": "Muy Fácil",
+      "preguntas": [
+        {
+          "enunciado": "¿Quién es el protagonista?",
+          "respuestas": [
+            { "texto": "A) Sam" },
+            { "texto": "B) Frodo" },
+            { "texto": "C) Pipin" },
+            { "texto": "D) Gandalf" }
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "enunciado": "¿Cuál es el nombre real de Gollum?",
+          "respuestas": [
+            { "texto": "A) Boromir" },
+            { "texto": "B) Aragon" },
+            { "texto": "C) Smeagol" },
+            { "texto": "D) Légolas" }
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "enunciado": "¿Quienes son los nazgul (jinetes de la muerte)?",
+          "respuestas": [
+            { "texto": "A) Los nueves reyes de los hombres" },
+            { "texto": "B) Los elfos que montan Dragones" },
+            { "texto": "C) Enanos corruptos por ambición del poder de los anillos" },
+            { "texto": "D) Los elfos del Bosque negro" }
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "enunciado": "¿Cómo se llama el caballo que monta Gandalf en “El Retorno del Rey”?",
+          "respuestas": [
+            { "texto": "A) Viento veloz" },
+            { "texto": "B) Tiro al blanco" },
+            { "texto": "C) Noche oscura" },
+            { "texto": "D) Sombra gris" }
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "enunciado": "¿Cómo se llama el Rey de Gondor que derrota a Sauron en la batalla de la Última Alianza?",
+          "respuestas": [
+            { "texto": "A) Isildur" },
+            { "texto": "B) Istari" },
+            { "texto": "C) Aragon" },
+            { "texto": "D) Thranduil" }
+          ],
+          "respuestaCorrecta": 0
+        }
+      ]
+    },
+
+
+    {
+      "nombreDificultad": "Fácil",
+      "preguntas": [
+        {
+          "enunciado": "¿En qué edad sucede la saga del Señor de los anillos dentro del universo Tolkien?",
+          "respuestas": [
+            { "texto": "A) Primera edad" },
+            { "texto": "B) Cuarta edad" },
+            { "texto": "C) Segunda edad" },
+            { "texto": "D) Tercera edad" }
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "enunciado": "¿Gentilicio de los habitantes de Roham?",
+          "respuestas": [
+            { "texto": "A) Rohenses" },
+            { "texto": "B) Roharianos" },
+            { "texto": "C) Rohirrim" },
+            { "texto": "D) Rohemses" }
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "enunciado": "¿Cómo se llama la criatura que lucha a muerte contra Gandalf en “La Comunidad del Anillo”?",
+          "respuestas": [
+            { "texto": "A) Morgoth" },
+            { "texto": "B) Balrrog" },
+            { "texto": "C) Saouron" },
+            { "texto": "D) Smaugh" }
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "enunciado": "¿Cómo se llama el Papá de Legolas?",
+          "respuestas": [
+            { "texto": "A) Thorim" },
+            { "texto": "B) Threin" },
+            { "texto": "C) Thranduil" },
+            { "texto": "D) Thingol" }
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "enunciado": "¿Quién creó los anillos de poder?",
+          "respuestas": [
+            { "texto": "A) Sauron" },
+            { "texto": "B) Morgul" },
+            { "texto": "C) Galadriel" },
+            { "texto": "D) Lucifer" }
+          ],
+          "respuestaCorrecta": 0
+        }
+      ]
+    },
+
+
+    {
+      "nombreDificultad": "Normal",
+      "preguntas": [
+        {
+          "enunciado": "¿Cómo se llama el hogar de los Valar después de la primera edad?",
+          "respuestas": [
+            { "texto": "A) Arda" },
+            { "texto": "B) Ëa" },
+            { "texto": "C) Valinor" },
+            { "texto": "D) Tierra Media" }
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "enunciado": "¿Cuántos son los padres enanos originales?",
+          "respuestas": [
+            { "texto": "A) 4" },
+            { "texto": "B) 3" },
+            { "texto": "C) 5" },
+            { "texto": "D) 7" }
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "enunciado": "¿Quién controla a Théoden en “Las Dos Torres”?",
+          "respuestas": [
+            { "texto": "A) Gríma" },
+            { "texto": "B) Saruman" },
+            { "texto": "C) Gandalf" },
+            { "texto": "D) Radagast" }
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "enunciado": "¿Cómo se llama la espada de Isildur?",
+          "respuestas": [
+            { "texto": "A) Silmaril" },
+            { "texto": "B) Eldamar" },
+            { "texto": "C) Valmar" },
+            { "texto": "D) Narsil" }
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "enunciado": "¿Cuál es el origen de los Orcos?",
+          "respuestas": [
+            { "texto": "A) Los creó Sauron en Rivendell" },
+            { "texto": "B) Elfos corruptos por la maldad de Melkor" },
+            { "texto": "C) Surgieron de las sombras en Utumno" },
+            { "texto": "D) Son la materialización de la maldad del mundo" }
+          ],
+          "respuestaCorrecta": 1
+        }
+      ]
+    },
+
+
+    {
+      "nombreDificultad": "Difícil",
+      "preguntas": [
+        {
+          "enunciado": "¿Cuántos Silmarils se crearon?",
+          "respuestas": [
+            { "texto": "A) 3" },
+            { "texto": "B) 2" },
+            { "texto": "C) 4" },
+            { "texto": "D) 1" }
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "enunciado": "¿Quién creó los Silmarils?",
+          "respuestas": [
+            { "texto": "A) Melian" },
+            { "texto": "B) Thingol" },
+            { "texto": "C) Fëanor" },
+            { "texto": "D) Finwë" }
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "enunciado": "¿Cuántos Istari existen en Arda?",
+          "respuestas": [
+            { "texto": "A) 3" },
+            { "texto": "B) 1" },
+            { "texto": "C) 2" },
+            { "texto": "D) 5" }
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "enunciado": "¿Qué tipo de monstruos habitaban en las Minas de Moria?",
+          "respuestas": [
+            { "texto": "A) Orcos" },
+            { "texto": "B) Trasgos" },
+            { "texto": "C) Balrrogs" },
+            { "texto": "D) Dragones" }
+          ],
+          "respuestaCorrecta": 1
+        },
+        {
+          "enunciado": "¿Quiénes son los Eldar?",
+          "respuestas": [
+            { "texto": "A) Valar" },
+            { "texto": "B) Hombres" },
+            { "texto": "C) Elfos" },
+            { "texto": "D) Enanos" }
+          ],
+          "respuestaCorrecta": 2
+        }
+      ]
+    },
+
+
+    {
+      "nombreDificultad": "Muy Difícil",
+      "preguntas": [
+        {
+          "enunciado": "¿Nombre de uno de los señores Eldar?",
+          "respuestas": [
+            { "texto": "A) Finwë" },
+            { "texto": "B) Boromir" },
+            { "texto": "C) Aragon" },
+            { "texto": "D) Fingolfin" }
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "enunciado": "¿Nombre de los árboles de luz en Valinor antes de la creación del sol y la luna?",
+          "respuestas": [
+            { "texto": "A) Nimloth y Celeborn" },
+            { "texto": "B) Pelóri y Tuna" },
+            { "texto": "C) Belerian y Taniquetil" },
+            { "texto": "D) Telperion y Laurelin" }
+          ],
+          "respuestaCorrecta": 3
+        },
+        {
+          "enunciado": "¿Porqué Sauron pierde su forma física?",
+          "respuestas": [
+            { "texto": "A) Por la batalla de los cinco ejércitos" },
+            { "texto": "B) Por la daga que le clava Galadriel" },
+            { "texto": "C) Por la destrucción de su cuerpo con el tsunami en la Isla de Númenor" },
+            { "texto": "D) Por la batalla del encadenamiento de Melkor" }
+          ],
+          "respuestaCorrecta": 2
+        },
+        {
+          "enunciado": "¿El reino de Númenor era de qué raza?",
+          "respuestas": [
+            { "texto": "A) Humanos" },
+            { "texto": "B) Elfos" },
+            { "texto": "C) Enanos" },
+            { "texto": "D) Hobits" }
+          ],
+          "respuestaCorrecta": 0
+        },
+        {
+          "enunciado": "¿Cuál es el lugar donde aparecen los Eldar por primera vez?",
+          "respuestas": [
+            { "texto": "A) Calacirya" },
+            { "texto": "B) Cuivienen" },
+            { "texto": "C) Río Sirion" },
+            { "texto": "D) Rivendell" }
+          ],
+          "respuestaCorrecta": 1
+        }
+      ]
+    }
+  ]
+}

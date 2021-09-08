@@ -1,0 +1,280 @@
+{
+    "bancoDePreguntas": [
+        {
+            "nombreDificultad": "Muy Fácil",
+            "preguntas": [
+                {
+                    "enunciado": "1. ¿Qué palabra utiliza Daenerys para que los dragones arrojen fuego? ",
+                    "respuestas": [
+                        { "texto": "A) Dracarys " },
+                        { "texto": "B) Domeris" },
+                        { "texto": "C) Dracorys" },
+                        { "texto": "D) Domecris" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "1. ¿Cómo se llama el lobo de Jon Snow? ",
+                    "respuestas": [
+                        { "texto": "A) Viento blanco" },
+                        { "texto": "B) Fantasma " },
+                        { "texto": "C) Nube Blanca " },
+                        { "texto": "D) Lobo Gris " }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "1. ¿Porqué lo único que dice este personaje es ‘Hodor’? ",
+                    "respuestas": [
+                        { "texto": "A) Es su nombre" },
+                        { "texto": "B) Es la abreviatura de ‘Hold the door’" },
+                        { "texto": "C) No le enseñaron más palabras" },
+                        { "texto": "D) Así se llama su padre" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "1. ¿Cómo murió Khal Drogo? ",
+                    "respuestas": [
+                        { "texto": "A) Una estampida de caballos" },
+                        { "texto": "B) Una herida abierta " },
+                        { "texto": "C) Veneno" },
+                        { "texto": "D) En combate" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "1. ¿Cómo se le conoce a Bran Stark cuando se vuelve rey? ",
+                    "respuestas": [
+                        { "texto": "A) El sabio" },
+                        { "texto": "B) El que todo lo ve " },
+                        { "texto": "C) El roto" },
+                        { "texto": "D) El lisiado" }
+                    ],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Fácil",
+            "preguntas": [
+                {
+                    "enunciado": "2. ¿Quién dijo la frase: ‘Cuando juegas al juego de tronos, o ganas o mueres’? ",
+                    "respuestas": [
+                        { "texto": "A) Cersei Lannister" },
+                        { "texto": "B) Margaery Tyrell" },
+                        { "texto": "C) Arya Stark" },
+                        { "texto": "D) Melisandre" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "2. ¿Con quién debía casarse originalmente Robert Baratheon? ",
+                    "respuestas": [
+                        { "texto": "A) Elia Martell" },
+                        { "texto": "B) Catelyn Tully" },
+                        { "texto": "C) Lyanna Stark" },
+                        { "texto": "D) Cersei Lannister" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "2. ¿De qué esta hecha la espada de Jon Snow?",
+                    "respuestas": [
+                        { "texto": "A) Vhagar " },
+                        { "texto": "B) Arciano " },
+                        { "texto": "C) Acero Valyrio" },
+                        { "texto": "D) Metal" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "2. Que se responde cuando se dice: Valar Morghulis",
+                    "respuestas": [
+                        { "texto": "A) Valar Dracarys" },
+                        { "texto": "B) Valar Morghulis" },
+                        { "texto": "C) Valar Mantarys " },
+                        { "texto": "D) Valar Dohaeris " }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "2. ¿Quién creó a los White walkers o Caminantes blancos? ",
+                    "respuestas": [
+                        { "texto": "A) Los Salvajes" },
+                        { "texto": "B) El dios rojo" },
+                        { "texto": "C) Los hijos del bosque" },
+                        { "texto": "D) La guardia de la noche" }
+                    ],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Normal",
+            "preguntas": [
+                {
+                    "enunciado": "3. ¿Quién defiende a Tyrion Lannister contra 'la Montaña' en el juicio contra él? ",
+                    "respuestas": [
+                        { "texto": "A) Sandor Clegane" },
+                        { "texto": "B) Jaime Lannister" },
+                        { "texto": "C) Oberyn Matell" },
+                        { "texto": "D) Brienne de Tarth" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "3. ¿En qué capítulo muere el rey Joffrey?",
+                    "respuestas": [
+                        { "texto": "A) Boda Rosa" },
+                        { "texto": "B) Boda Roja" },
+                        { "texto": "C) Boda Amarilla" },
+                        { "texto": "D) Boda Porpura" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "3. ¿Cómo se llaman los dragones de Daenerys?",
+                    "respuestas": [
+                        { "texto": "A) Rhaegal, Viserion y Drogon" },
+                        { "texto": "B) Rhaegal, Velirion y Dragon" },
+                        { "texto": "C) Ramal, Viserion y Drogo" },
+                        { "texto": "D) Rhaegal, Visol y Drogon" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "3. ¿Quién era antes el Rey de la Noche?",
+                    "respuestas": [
+                        { "texto": "A) El rey del invierno" },
+                        { "texto": "B) Un Lord Comandante de la Guardia de la Noche" },
+                        { "texto": "C) El cuervo de tres ojos" },
+                        { "texto": "D) Un salvaje" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "3. ¿Cómo murió Jon Arryn, el antecesor de Ned Stark como Mano del Rey?",
+                    "respuestas": [
+                        { "texto": "A) Acuchillado " },
+                        { "texto": "B) De un infarto" },
+                        { "texto": "C) Envenenado " },
+                        { "texto": "D) Ahogado " }
+                    ],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Difícil",
+            "preguntas": [
+                {
+                    "enunciado": "4. ¿Cuál es la raza de lobos de los Stark?",
+                    "respuestas": [
+                        { "texto": "A) Huargo " },
+                        { "texto": "B) Hungaro " },
+                        { "texto": "C) Hurgo " },
+                        { "texto": "D) Hurjo " }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "4. ¿A qué gran familia pertenecen los hombres que le cortan la mano a Jaime Lannister?",
+                    "respuestas": [
+                        { "texto": "A) Bolton " },
+                        { "texto": "B) Glover " },
+                        { "texto": "C) Umber " },
+                        { "texto": "D) Karsatark " }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "4. ¿A qué clan pertenece Shagga, el guardaespaldas de Tyrion?",
+                    "respuestas": [
+                        { "texto": "A) Grajos de piedra" },
+                        { "texto": "B) Hermanos de la Luna" },
+                        { "texto": "C) Hombres quemados" },
+                        { "texto": "D) Orejas Negras" }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "4. ¿De dónde es originaria Talisa Maegyr? ",
+                    "respuestas": [
+                        { "texto": "A) Pentos" },
+                        { "texto": "B) Desembarco del rey" },
+                        { "texto": "C) Asshai" },
+                        { "texto": "D) Volantis" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "4. ¿Qué personajes aparecen en todos los capítulos de la primera temporada?",
+                    "respuestas": [
+                        { "texto": "A) Tyrion y Cersei" },
+                        { "texto": "B) Tyrion y Joffrey" },
+                        { "texto": "C) Cersei y Joffrey " },
+                        { "texto": "D) Sansa y Tyrion" }
+                    ],
+                    "respuestaCorrecta": 2
+                }
+            ]
+        },
+        {
+            "nombreDificultad": "Muy Difícil",
+            "preguntas": [
+                {
+                    "enunciado": "5. ¿Cómo se llamaba el profesor de esgrima de Arya?",
+                    "respuestas": [
+                        { "texto": "A) Syrio Forel " },
+                        { "texto": "B) Varys Forel " },
+                        { "texto": "C) Loras Tyrell" },
+                        { "texto": "D) Robb Stark" }
+                    ],
+                    "respuestaCorrecta": 0
+                },
+                {
+                    "enunciado": "5. ¿Qué canción suena durante las muertes de la boda roja?",
+                    "respuestas": [
+                        { "texto": "A) La mujer del dorniense" },
+                        { "texto": "B) Lluvia de acero" },
+                        { "texto": "C) Las lluvias de Castamere" },
+                        { "texto": "D) El oso y la doncella" }
+                    ],
+                    "respuestaCorrecta": 2
+                },
+                {
+                    "enunciado": "5. ¿Cómo se llama el bufón que ayuda a Sansa a escapar en la boda de Joffrey? ",
+                    "respuestas": [
+                        { "texto": "A) Beric Dondarrion" },
+                        { "texto": "B) Dontos Hollard" },
+                        { "texto": "C) Durran " },
+                        { "texto": "D) Shagwell " }
+                    ],
+                    "respuestaCorrecta": 1
+                },
+                {
+                    "enunciado": "5. ¿Quién da muerte a Arthurn Dayne en la torre de la alegría? ",
+                    "respuestas": [
+                        { "texto": "A) Eddard Stark" },
+                        { "texto": "B) Jon Arryn " },
+                        { "texto": "C) Ethan Glover " },
+                        { "texto": "D) Howland Reed" }
+                    ],
+                    "respuestaCorrecta": 3
+                },
+                {
+                    "enunciado": "5. ¿Cómo se le llama a entrar en la mente de los animales? ",
+                    "respuestas": [
+                        { "texto": "A) Warm " },
+                        { "texto": "B) Warp " },
+                        { "texto": "C) Ward " },
+                        { "texto": "D) Warg" }
+                    ],
+                    "respuestaCorrecta": 3
+                }
+            ]
+        }
+    ]
+    
+}
