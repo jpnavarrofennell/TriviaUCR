@@ -30,8 +30,12 @@ public class PanelComplementario : MonoBehaviour
 
     public void Desplegar()
     {
+        nivelPregunta = game.nivelPregunta;
+        nivelPregunta--;
+        preguntaAlAzar = game.preguntaAlAzar;
         panelInformacionComplementaria.SetActive(true);
         //Cargar la informacion del banco de preguntas con la informacion complementaria
+
         informacionComplementaria.text = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].informacionComplementaria;
 
     }

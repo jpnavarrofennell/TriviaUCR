@@ -11,7 +11,7 @@ public class Game : MonoBehaviour
     public Text enunciado;
     public Text[] respuesta;
     public int nivelPregunta;
-    protected int preguntaAlAzar;
+    public int preguntaAlAzar;
     public PanelComplementario panelComplementario;
 
     // Start is called before the first frame update
@@ -59,7 +59,7 @@ public class Game : MonoBehaviour
         {
             // reinicio del problema con mayor dificultad
             nivelPregunta++;
-            
+
 
             if(nivelPregunta == bancoDePreguntas.Length)
             {

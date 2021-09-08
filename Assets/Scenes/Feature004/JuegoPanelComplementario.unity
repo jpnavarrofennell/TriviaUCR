@@ -1356,8 +1356,7 @@ MonoBehaviour:
       - texto: Nilo
       - texto: Danubio
       respuestaCorrecta: 2
-      informacionComplementaria: "Es un r\xEDo que se encuentra en el continente
-        de Am\xE9rica"
+      informacionComplementaria: "Es un r\xEDo que se encuentra en el continente"
     - enunciado: "\xBFD\xF3nde se originaron los juegos ol\xEDmpicos?  "
       respuestas:
       - texto: Inglaterra
@@ -1550,6 +1549,7 @@ MonoBehaviour:
   - {fileID: 1791446772}
   - {fileID: 850438399}
   nivelPregunta: 0
+  preguntaAlAzar: 0
   panelComplementario: {fileID: 1436520457}
 --- !u!114 &1436520457
 MonoBehaviour:
