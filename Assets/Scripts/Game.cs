@@ -19,7 +19,7 @@ public class Game : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nivelPregunta = 0; 
+        nivelPregunta = 0;
         SelecionarPregunta();
     }
 
@@ -54,6 +54,8 @@ public class Game : MonoBehaviour
         {
             respuesta[i].text = bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].respuestas[i].texto;
         }
+        //string json = JsonUtility.ToJson(bancoDePreguntas);
+        //Debug.Log(json);
     }
 
     public bool EvaluarPregunta(int respuestaJugador)
@@ -84,7 +86,6 @@ public class Game : MonoBehaviour
         }
     }
 
-
     //Fin de comodin 50/50.
 
     public void HabilitarRespuestas()
@@ -96,5 +97,10 @@ public class Game : MonoBehaviour
         }
 
     }
+    
 
+    public int PreguntaActual()
+    {
+        return preguntaAlAzar;
+    }
 }
