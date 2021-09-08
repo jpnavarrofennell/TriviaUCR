@@ -81,4 +81,9 @@ public class Game : MonoBehaviour
             return false;
         }
     }
+
+    public int PreguntaActual()
+    {
+        return preguntaAlAzar;
+    }
 }
