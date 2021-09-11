@@ -42,25 +42,25 @@ public class Comodins : MonoBehaviour
 
         //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
         int respuestaCorrecta = RespuestaCorrecta(nivelPregunta, preguntaActual);//aquí utilizo el metodo Respuesta correcta con los paramentros necesarios para que me retorne la respuesta correcta 
-        ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta);
+        ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta); // se genera un Arraylist llamando al método generar random el cual genera un arreglo de preguntas
         foreach (var r in respuestasTemp)
         {
-            game.btn_respuesta[(int)r].gameObject.SetActive(false);
+            game.btn_respuesta[(int)r].gameObject.SetActive(false);// se deshabilita los botones contenidos en el arreglo temporal
         }
     }
 
     //Generar Repuesta incorrecta ramdon para 50/50 
     public ArrayList GenerarRandom(int respuestaCorrecta)
     {
-        ArrayList tempArray = new ArrayList();
+        ArrayList tempArray = new ArrayList(); // Se crea el arreglo temporal
 
         int r1 = Random.Range(0, 4);
-        while (r1 == respuestaCorrecta)
+        while (r1 == respuestaCorrecta)// si el numero random generado anteriormente coincide con la respuesta se debe cambiar
             r1 = Random.Range(0, 4);
 
 
         int r2 = Random.Range(0, 4);
-        while ((r2 == respuestaCorrecta) || (r2 == r1))
+        while ((r2 == respuestaCorrecta) || (r2 == r1))// r1 deberia ser distinto de r2 y a su vez de respuestaCorrecto, por lo tanto se ejecuta el ciclo hasta que esta condición se cumpla
         {
             r2 = Random.Range(0, 4);
         }
