@@ -1450,6 +1450,17 @@ MonoBehaviour:
       - texto: Sopilote
       respuestaCorrecta: 0
       informacionComplementaria: Este conto corresponde al canto de un pecho amarrillo
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l es el r\xEDo m\xE1s grande del mundo?"
+      respuestas:
+      - texto: Amazonas
+      - texto: Nilo
+      - texto: Danubio
+      - texto: Rin
+      respuestaCorrecta: 0
+      informacionComplementaria: "El r\xEDo Amazonas tiene una extensi\xF3n aproximada
+        de 6,400 km, siendo el m\xE1s grande por volumen dentro de la Tierra."
   - nombreDificultad: Facil
     preguntas:
     - sonido: {fileID: 0}
