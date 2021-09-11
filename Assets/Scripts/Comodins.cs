@@ -24,8 +24,12 @@ public class Comodins : MonoBehaviour
                 Comodin5050();
                 break;
 
+            case 1:
+                //comodinCambioPregunta()
+                break;
+
             default:
-                Debug.Log("Error: " + comodin + "invalido");
+                Debug.Log("Error: " + comodin + "invalido");//imprime en la consola si se selecciona un número de comodín no válido
                 break;
         }
     }
