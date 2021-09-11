@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public partial class Pregunta
 {
     public string informacionComplementaria;
-}
+}//fin de la clase Pregunta
 public class PanelComplementario : MonoBehaviour
 {
+    //se inicialisa los objetos
     public GameObject panelInformacionComplementaria;
     public Text informacionComplementaria;
     public Game game;
@@ -20,14 +21,16 @@ public class PanelComplementario : MonoBehaviour
     void Update()
     {
         
-    }
+    }//fin del metodo Update
 
+    //En el metodo Continuar se escondera el panel complementaria y mostrara la siguiente pregunta en el juego
     public void Continuar()
     {
         panelInformacionComplementaria.SetActive(false);
         game.SelecionarPregunta();
-    }
+    }//fin del metodo Continuar
 
+    //En el metodo Desplegar se cargaran las preguntas con su respectiva informacion complementaria
     public void Desplegar()
     {
         nivelPregunta = game.nivelPregunta;
@@ -38,5 +41,5 @@ public class PanelComplementario : MonoBehaviour
 
         informacionComplementaria.text = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].informacionComplementaria;
 
-    }
-}
+    }//fin del metedo Desplegar
+}//fin de la clase PanelComplementario
