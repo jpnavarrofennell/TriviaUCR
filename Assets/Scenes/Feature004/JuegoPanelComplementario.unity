@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5, y: -31.861}
+  m_SizeDelta: {x: -441.41, y: 63.721}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34927197
 MonoBehaviour:
@@ -238,8 +238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -233}
-  m_SizeDelta: {x: 900, y: 65}
+  m_AnchoredPosition: {x: 0, y: -152.13315}
+  m_SizeDelta: {x: 900, y: 60.252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296100368
 MonoBehaviour:
@@ -450,8 +450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -414}
-  m_SizeDelta: {x: 300, y: 60}
+  m_AnchoredPosition: {x: 0, y: -319.91074}
+  m_SizeDelta: {x: 300, y: 55.617}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &636963808
 MonoBehaviour:
@@ -793,8 +793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 293}
-  m_SizeDelta: {x: 1500, y: 170}
+  m_AnchoredPosition: {x: 0, y: 289.32}
+  m_SizeDelta: {x: 1500, y: 249.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1047069286
 MonoBehaviour:
@@ -874,8 +874,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 76}
-  m_SizeDelta: {x: 900, y: 65}
+  m_AnchoredPosition: {x: 0, y: 134.293}
+  m_SizeDelta: {x: 900, y: 60.252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066643065
 MonoBehaviour:
@@ -1086,8 +1086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -136}
-  m_SizeDelta: {x: 900, y: 65}
+  m_AnchoredPosition: {x: 0, y: -62.21998}
+  m_SizeDelta: {x: 900, y: 60.252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370401499
 MonoBehaviour:
@@ -1349,7 +1349,9 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: Muy Facil
     preguntas:
-    - enunciado: "\xBFC\xF3mo se llama el r\xEDo m\xE1s largo del mundo?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFC\xF3mo se llama el r\xEDo m\xE1s largo del mundo?  "
       respuestas:
       - texto: Amazonas
       - texto: Ganges
@@ -1357,7 +1359,9 @@ MonoBehaviour:
       - texto: Danubio
       respuestaCorrecta: 2
       informacionComplementaria: "Es un r\xEDo que se encuentra en el continente"
-    - enunciado: "\xBFD\xF3nde se originaron los juegos ol\xEDmpicos?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFD\xF3nde se originaron los juegos ol\xEDmpicos?  "
       respuestas:
       - texto: Inglaterra
       - texto: Grecia
@@ -1366,7 +1370,9 @@ MonoBehaviour:
       respuestaCorrecta: 1
       informacionComplementaria: "Se celebraron por primera vez hace 2800 a\xF1os,
         en la regi\xF3n de Olimpia."
-    - enunciado: "\xBFCu\xE1l es el disco m\xE1s vendido de la historia?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l es el disco m\xE1s vendido de la historia?  "
       respuestas:
       - texto: El guardaespaldas
       - texto: Back in Black
@@ -1375,7 +1381,9 @@ MonoBehaviour:
       respuestaCorrecta: 3
       informacionComplementaria: "Este alb\xFAm fue estrenado por primera vez  en
         la \xE9poca de los 90."
-    - enunciado: "\xBFCu\xE1l es la telenovela que se ha traducido en m\xE1s de 180
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l es la telenovela que se ha traducido en m\xE1s de 180
         pa\xEDses? "
       respuestas:
       - texto: "Pasi\xF3n de gavilanes"
@@ -1385,7 +1393,9 @@ MonoBehaviour:
       respuestaCorrecta: 1
       informacionComplementaria: " En 1999 en la televisi\xF3n Colombiana, se emiti\xF3
         el primer cap\xEDtulo de esta telenovela"
-    - enunciado: "\xBFCu\xE1l es el libro sagrado del Islam ?"
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l es el libro sagrado del Islam ?"
       respuestas:
       - texto: "Cor\xE1n"
       - texto: Biblia
@@ -1396,7 +1406,9 @@ MonoBehaviour:
         libro. '
   - nombreDificultad: Facil
     preguntas:
-    - enunciado: "\xBFC\xF3mo se llama el jugador de f\xFAtbol que m\xE1s ha ganado
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFC\xF3mo se llama el jugador de f\xFAtbol que m\xE1s ha ganado
         t\xEDtulos en la historia?  "
       respuestas:
       - texto: "Mbapp\xE9"
@@ -1406,7 +1418,9 @@ MonoBehaviour:
       respuestaCorrecta: 2
       informacionComplementaria: "Es reconocido por el apodo de \"Poti\" en un famoso
         equipo Fr\xE1nces ."
-    - enunciado: "\xBFQu\xE9 persona seg\xFAn la historia se dice que traicion\xF3
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFQu\xE9 persona seg\xFAn la historia se dice que traicion\xF3
         a Jes\xFAs?"
       respuestas:
       - texto: Abel
@@ -1416,7 +1430,9 @@ MonoBehaviour:
       respuestaCorrecta: 3
       informacionComplementaria: Hay un dicho reconocido por este nombre llamado
         "El beso de ..."
-    - enunciado: "\xBFC\xF3mo se llama el actor protagonista de la pel\xEDcula \u201CRocky\u201D?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFC\xF3mo se llama el actor protagonista de la pel\xEDcula \u201CRocky\u201D?  "
       respuestas:
       - texto: Brad pitt
       - texto: Sylvester Stallone
@@ -1425,7 +1441,9 @@ MonoBehaviour:
       respuestaCorrecta: 1
       informacionComplementaria: "Fue el actor principal de otra saga de pel\xEDculas
         muy reconocida llamada \"Rambo\". "
-    - enunciado: "\xBFCu\xE1l se dice que es el metal m\xE1s caro del mundo?"
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l se dice que es el metal m\xE1s caro del mundo?"
       respuestas:
       - texto: Oro
       - texto: plata
@@ -1434,7 +1452,9 @@ MonoBehaviour:
       respuestaCorrecta: 2
       informacionComplementaria: "Es un metal blanco poco abundante y muy resistente
         a la corrosi\xF3n."
-    - enunciado: "\xBFEn qu\xE9 a\xF1o se acab\xF3 la II Guerra Mundial?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFEn qu\xE9 a\xF1o se acab\xF3 la II Guerra Mundial?  "
       respuestas:
       - texto: 1945
       - texto: 1944
@@ -1445,7 +1465,9 @@ MonoBehaviour:
         de ese a\xF1o, con la rendici\xF3n Alemana. "
   - nombreDificultad: Medio
     preguntas:
-    - enunciado: "\xBFEn qu\xE9 a\xF1o muri\xF3 Bob Marley? "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFEn qu\xE9 a\xF1o muri\xF3 Bob Marley? "
       respuestas:
       - texto: 1981
       - texto: 1995
@@ -1455,7 +1477,9 @@ MonoBehaviour:
       informacionComplementaria: "Muri\xF3 de un c\xE1ncer, para el a\xF1o 1980,
         dicho c\xE1ncer hab\xEDa avanzado en su met\xE1stasis al cerebro, pulmones,
         h\xEDgado y est\xF3mago."
-    - enunciado: "\xBFQui\xE9n compuso la canci\xF3n Nice to meet ya? "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFQui\xE9n compuso la canci\xF3n Nice to meet ya? "
       respuestas:
       - texto: Billie Eilish
       - texto: Madonna
@@ -1466,7 +1490,9 @@ MonoBehaviour:
         estadounidense Meghan Trainor y la rapera trinitense Nicki Minaj. Fue lanzada
         el 31 de enero de 2020, como el tercer sencillo del tercer \xE1lbum de estudio
         de Trainor, Treat Myself."
-    - enunciado: "\xBFCu\xE1l es la bebida m\xE1s popular a lo largo del mundo?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l es la bebida m\xE1s popular a lo largo del mundo?  "
       respuestas:
       - texto: Vino
       - texto: Cerveza
@@ -1475,7 +1501,9 @@ MonoBehaviour:
       respuestaCorrecta: 3
       informacionComplementaria: "El t\xE9, tiene una antig\xFCedad de dos mil a\xF1os
         mayor que el caf\xE9, adem\xE1s posee efectos antioxidantes y anticancer\xEDgenos."
-    - enunciado: "\xBFCu\xE1nto dur\xF3 la conocida guerra de los 100 a\xF1os?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1nto dur\xF3 la conocida guerra de los 100 a\xF1os?  "
       respuestas:
       - texto: 100
       - texto: 116
@@ -1484,7 +1512,9 @@ MonoBehaviour:
       respuestaCorrecta: 1
       informacionComplementaria: "La guerra de los cien a\xF1os (1337-1453) fue un
         conflicto intermitente entre Inglaterra y Francia que dur\xF3 116 a\xF1os."
-    - enunciado: "\xBFQui\xE9n es Claudia Poll?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFQui\xE9n es Claudia Poll?  "
       respuestas:
       - texto: Cantante
       - texto: Ciclista
@@ -1496,7 +1526,9 @@ MonoBehaviour:
         en unos Juegos Ol\xEDmpicos, esto se dio en Atlanta 1996."
   - nombreDificultad: Dificil
     preguntas:
-    - enunciado: "\xBFEn qu\xE9 a\xF1o ocurri\xF3 el terremoto de Cartago de Costa
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFEn qu\xE9 a\xF1o ocurri\xF3 el terremoto de Cartago de Costa
         Rica?  "
       respuestas:
       - texto: 1940
@@ -1507,7 +1539,9 @@ MonoBehaviour:
       informacionComplementaria: "El 13 de abril de 1910 a las 12:37 se di\xF3 un
         sismo que posiblemente era de tipo somero, con una magnitud de 5.8Ms, al
         sureste de San Jos\xE9, cerca del Tablazo."
-    - enunciado: "\xBFQu\xE9 banda tiene m\xE1s premios Grammy en toda la historia?  "
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFQu\xE9 banda tiene m\xE1s premios Grammy en toda la historia?  "
       respuestas:
       - texto: U2
       - texto: Queen
@@ -1516,7 +1550,9 @@ MonoBehaviour:
       respuestaCorrecta: 0
       informacionComplementaria: U2 se ubica en el puesto 2 de Grammy's ganados por
         un grupo, tienen una cantidad total de 22 Premios Grammy ganados.
-    - enunciado: "\xBFA qu\xE9 cantante se le conoce como El Sol de M\xE9xico.?"
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFA qu\xE9 cantante se le conoce como El Sol de M\xE9xico.?"
       respuestas:
       - texto: "Vicente Fern\xE1ndez"
       - texto: Antonio Aguilar
@@ -1526,7 +1562,9 @@ MonoBehaviour:
       informacionComplementaria: "Es un apodo que le dio su productor, una vez hicieron
         una especie de concurso para decidir como quer\xEDan decirle a Luis Miguel,
         y su tarjeta que dec\xEDa \"El Sol\" gan\xF3."
-    - enunciado: x
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: x
       respuestas:
       - texto: 100
       - texto: 116
@@ -1534,7 +1572,9 @@ MonoBehaviour:
       - texto: 105
       respuestaCorrecta: 1
       informacionComplementaria: x
-    - enunciado: x
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: x
       respuestas:
       - texto: Cantante
       - texto: Ciclista
@@ -1551,6 +1591,7 @@ MonoBehaviour:
   nivelPregunta: 0
   preguntaAlAzar: 0
   panelComplementario: {fileID: 1436520457}
+  btn_respuesta: []
 --- !u!114 &1436520457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2157,8 +2198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -33}
-  m_SizeDelta: {x: 900, y: 65}
+  m_AnchoredPosition: {x: 0, y: 33.256}
+  m_SizeDelta: {x: 900, y: 60.252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961767800
 MonoBehaviour:

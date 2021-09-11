@@ -80,7 +80,7 @@ public class Game : MonoBehaviour
                 {
                     Debug.LogError("Se te olvido configurar el panel de información complementaria: " + ex.Message);
                 }
-                
+                //esta linea esta dando error
                 HabilitarRespuestas();
             }
 
