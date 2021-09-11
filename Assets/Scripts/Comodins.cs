@@ -15,55 +15,56 @@ public class Comodins : MonoBehaviour
    
 
 
-    //Inicio Seleccionar comodin.
+    //Metodo para seleccionar el tipo de comodin
     public void SeleccionarComodin(int comodin)
     {
-        if (comodin == 0)
+        switch(comodin)
         {
-            Comodin5050();
-        }
+            case 0:
+                Comodin5050();
+                break;
 
+            default:
+                Debug.Log("Error: " + comodin + "invalido");
+                break;
+        }
     }
 
-    //Fin Seleccionar comodin.
 
-
-    //Comodins.
-
-    //Inicio comodin 50/50.
+   //Metodo para el comodin de 50/50
     public void Comodin5050()
     {
         nivelPregunta = game.nivelPregunta;
         preguntaActual = game.preguntaAlAzar;
 
-        //Desabilita comodin 50/50
+        //Desabilita el boton comodin 50/50
         btn_Comodin5050.interactable = false;
         //fin
 
-        //Recorro las respuestas en pantalla y desactivo 2 respuesta incorrectas
-        int respuestaCorrecta = RespuestaCorrecta(nivelPregunta, preguntaActual);//aquí utilizo el metodo Respuesta correcta con los paramentros necesarios para que me retorne la respuesta correcta 
-        ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta);
-        foreach (var r in respuestasTemp)
+        //Obtiene la respuesta correcta de la pregunta actual dentro del pool y la asigna en una variable
+        int respuestaCorrecta = RespuestaCorrecta(nivelPregunta, preguntaActual); 
+        ArrayList respuestasTemp = GenerarRandom(respuestaCorrecta); //Genera dos posiciones random y las agrega a un ArrayList
+        foreach (var r in respuestasTemp) //Desabilita las opciones agregadas al ArrayList con un ciclo
         {
-            game.btn_respuesta[(int)r].gameObject.SetActive(false);
+            game.btn_respuesta[(int)r].interactable = false;
         }
     }
 
-    //Generar Repuesta incorrecta ramdon para 50/50 
+    //Meto para seleccionar 2 posiciones random en las respuestas
     public ArrayList GenerarRandom(int respuestaCorrecta)
     {
         ArrayList tempArray = new ArrayList();
 
+        //genera el primer numero
         int r1 = Random.Range(0, 4);
         while (r1 == respuestaCorrecta)
             r1 = Random.Range(0, 4);
 
-
+        //genera el segundo numero
         int r2 = Random.Range(0, 4);
         while ((r2 == respuestaCorrecta) || (r2 == r1))
-        {
             r2 = Random.Range(0, 4);
-        }
+        
 
         tempArray.Add(r1);
         tempArray.Add(r2);
