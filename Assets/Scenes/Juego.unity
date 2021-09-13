@@ -1461,6 +1461,17 @@ MonoBehaviour:
       respuestaCorrecta: 0
       informacionComplementaria: "El r\xEDo Amazonas tiene una extensi\xF3n aproximada
         de 6,400 km, siendo el m\xE1s grande por volumen dentro de la Tierra."
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 0}
+      enunciado: "\xBFCu\xE1l de las siguientes marcas de autos es de origen japon\xE9s?"
+      respuestas:
+      - texto: Chevy
+      - texto: Ferrari
+      - texto: Ford
+      - texto: Toyota
+      respuestaCorrecta: 3
+      informacionComplementaria: "La marca Toyota fue fundada en 1933 en la ciudad
+        de Toyota, Aichi, Jap\xF3n."
   - nombreDificultad: Facil
     preguntas:
     - sonido: {fileID: 0}
