@@ -13,7 +13,6 @@ public class CargadorImagenes : MonoBehaviour
     public Image imagenComplementaria;
     public Game game;
 
-    //Declaración de variables
     private int nivelPregunta;
     private int preguntaActual;
 
@@ -33,10 +32,10 @@ public class CargadorImagenes : MonoBehaviour
         {
             imagenComplementaria.gameObject.SetActive(true);
             imagenComplementaria.sprite = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].imagenComplementaria;
-        }//Fin del if
+        }
         else
         {
             imagenComplementaria.gameObject.SetActive(false);
-        }//Fin del else
-    }//Fin de update
-}//Final de clase cargado
+        }
+    }
+}
