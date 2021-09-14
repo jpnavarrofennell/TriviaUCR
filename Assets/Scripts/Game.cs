@@ -72,7 +72,15 @@ public class Game : MonoBehaviour
             else
             {
                 //Desplegar el panel de informacion complementaria ante una respuesta correcta
-                panelComplementario.Desplegar();
+                try
+                {
+                    panelComplementario.Desplegar();
+                }
+                catch(System.Exception ex)
+                {
+                    Debug.LogError("Se te olvido configurar el panel de información complementaria: " + ex.Message);
+                }
+                
                 HabilitarRespuestas();
             }
 
@@ -92,7 +100,15 @@ public class Game : MonoBehaviour
        
         for (int i = 0; i < respuesta.Length; i++)
         {
-            btn_respuesta[i].gameObject.SetActive(true);
+            try
+            {
+               btn_respuesta[i].gameObject.SetActive(true);
+            }
+            catch(System.Exception ex)
+            {
+                Debug.LogError("Falta configurar los botones en el objeto game, para que funcione el comodin");
+            }
+            
         }
 
     }

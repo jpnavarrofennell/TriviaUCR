@@ -6,10 +6,11 @@ using UnityEngine;
 public partial class Pregunta
 {
     public AudioClip sonido;
-}
+}//Fin de la clase parcial pregunta
 
 public class AudioManager : MonoBehaviour
 {
+    //Definicion de variables
     public AudioSource audioSource;
     public Game game;
 
@@ -37,10 +38,10 @@ public class AudioManager : MonoBehaviour
             {
                 audioSource.Play();
             }
-        }
+        }//Fin del if
         else
         {
             audioSource.clip = null;
-        }
-    }
-}
+        }//Fin del else
+    }//Fin del metodo update
+}//Fin de la clase AudioManager

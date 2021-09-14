@@ -1057,7 +1057,8 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: lvl0
     preguntas:
-    - enunciado: 1+1
+    - imagenComplementaria: {fileID: 0}
+      enunciado: 1+1
       respuestas:
       - texto: 0
       - texto: 1
@@ -1066,7 +1067,8 @@ MonoBehaviour:
       respuestaCorrecta: 2
   - nombreDificultad: lvl1
     preguntas:
-    - enunciado: 2+2
+    - imagenComplementaria: {fileID: 0}
+      enunciado: 2+2
       respuestas:
       - texto: 0
       - texto: 1
@@ -1630,7 +1632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d369cd01e9d79479ed4821fc12c48e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreArchivo: CienciaFiccion
+  nombreArchivo: UniversoTolkien
   game: {fileID: 1436520456}
 --- !u!4 &1992505267
 Transform:
