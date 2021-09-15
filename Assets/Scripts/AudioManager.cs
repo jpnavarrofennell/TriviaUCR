@@ -11,6 +11,7 @@ public partial class Pregunta
 public class AudioManager : MonoBehaviour
 {
     //Definicion de variables
+    public GameObject btn_Sonido;
     public AudioSource audioSource;
     public Game game;
 
@@ -32,16 +33,18 @@ public class AudioManager : MonoBehaviour
         //Si la pregunta elegida al azar tiene un sonido asignado...
         if (game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].sonido != null)
         {
+            btn_Sonido.SetActive(true);
             //se carga el recurso
             audioSource.clip = game.bancoDePreguntas[nivelPregunta].preguntas[preguntaActual].sonido;
             if (!audioSource.isPlaying)
             {
-                audioSource.Play();
+                //audioSource.Play();
             }
         }//Fin del if
         else
         {
             audioSource.clip = null;
+            btn_Sonido.SetActive(false);
         }//Fin del else
     }//Fin del metodo update
 }//Fin de la clase AudioManager
