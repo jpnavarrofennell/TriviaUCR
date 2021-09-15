@@ -11,6 +11,7 @@ public class PreguntasImport
 
 public class LoaderJSON : MonoBehaviour
 {
+    public bool cargarPreguntas = false;
     public string nombreArchivo;
     public Game game;
 
@@ -18,6 +19,8 @@ public class LoaderJSON : MonoBehaviour
     
     void Awake() 
     {
+        if (!cargarPreguntas) return;
+
         //https://answers.unity.com/questions/1533905/reading-json-file-1.html
 
         // borrar todo el banco de preguntas
