@@ -124,6 +124,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &254457192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254457193}
+  - component: {fileID: 254457195}
+  - component: {fileID: 254457194}
+  m_Layer: 5
+  m_Name: img_ImagenComplementaria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &254457193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254457192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1372322563}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -731, y: -56}
+  m_SizeDelta: {x: 256, y: 256}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &254457194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254457192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &254457195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254457192}
+  m_CullTransparentMesh: 1
 --- !u!1 &296100366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,6 +1367,7 @@ RectTransform:
   - {fileID: 1835608113}
   - {fileID: 690690452}
   - {fileID: 1189442121}
+  - {fileID: 254457193}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1392,6 +1468,7 @@ GameObject:
   - component: {fileID: 1436520456}
   - component: {fileID: 1436520457}
   - component: {fileID: 1436520458}
+  - component: {fileID: 1436520459}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -1441,7 +1518,8 @@ MonoBehaviour:
   - nombreDificultad: Muy Facil
     preguntas:
     - sonido: {fileID: 8300000, guid: b93e93249f2df92468957d48d202aa13, type: 3}
-      imagenComplementaria: {fileID: 0}
+      imagenComplementaria: {fileID: 21300000, guid: 5090783579b60764abc5bd27af6de029,
+        type: 3}
       enunciado: El canto de esta ave corresponde a
       respuestas:
       - texto: Pecho amarrillo
@@ -1451,7 +1529,8 @@ MonoBehaviour:
       respuestaCorrecta: 0
       informacionComplementaria: Este conto corresponde al canto de un pecho amarrillo
     - sonido: {fileID: 0}
-      imagenComplementaria: {fileID: 0}
+      imagenComplementaria: {fileID: 21300000, guid: 6fa6a2b68ff222847a4ab7427f56febd,
+        type: 3}
       enunciado: "\xBFCu\xE1l es el r\xEDo m\xE1s grande del mundo?"
       respuestas:
       - texto: Amazonas
@@ -1462,7 +1541,20 @@ MonoBehaviour:
       informacionComplementaria: "El r\xEDo Amazonas tiene una extensi\xF3n aproximada
         de 6,400 km, siendo el m\xE1s grande por volumen dentro de la Tierra."
     - sonido: {fileID: 0}
-      imagenComplementaria: {fileID: 0}
+      imagenComplementaria: {fileID: 21300000, guid: a54683530d027f6479b99c1bb40e3cc8,
+        type: 3}
+      enunciado: "\xBFCu\xE1l de las siguientes marcas de autos es de origen japon\xE9s?"
+      respuestas:
+      - texto: Chevy
+      - texto: Ferrari
+      - texto: Ford
+      - texto: Toyota
+      respuestaCorrecta: 3
+      informacionComplementaria: "La marca Toyota fue fundada en 1933 en la ciudad
+        de Toyota, Aichi, Jap\xF3n."
+    - sonido: {fileID: 0}
+      imagenComplementaria: {fileID: 21300000, guid: 28a574b8b2264e2428be2f2538288530,
+        type: 3}
       enunciado: "\xBFCu\xE1l de las siguientes marcas de autos es de origen japon\xE9s?"
       respuestas:
       - texto: Chevy
@@ -1529,6 +1621,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelInformacionComplementaria: {fileID: 1189442120}
   informacionComplementaria: {fileID: 1472871708}
+  game: {fileID: 1436520456}
+--- !u!114 &1436520459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436520453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc29758b3faeed438a120c86bbe1ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagenComplementaria: {fileID: 254457194}
   game: {fileID: 1436520456}
 --- !u!1 &1469978169
 GameObject:
