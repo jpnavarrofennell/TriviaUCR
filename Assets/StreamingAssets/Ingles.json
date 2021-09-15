@@ -5,6 +5,7 @@
             "preguntas": [
                 {
                     "enunciado": "1. He __ a boy",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Are" },
                         { "texto": "B) Is" },
@@ -15,6 +16,7 @@
                 },
                 {
                     "enunciado": "1. Sinónimo de 'house'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Horse" },
                         { "texto": "B) Hut" },
@@ -25,6 +27,7 @@
                 },
                 {
                     "enunciado": "1. Antónimo de 'día'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Now" },
                         { "texto": "B) Knight" },
@@ -35,6 +38,7 @@
                 },
                 {
                     "enunciado": "1. 'Blanco' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Yellow" },
                         { "texto": "B) Black" },
@@ -45,6 +49,7 @@
                 },
                 {
                     "enunciado": "1. They __ students",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Are" },
                         { "texto": "B) Am" },
@@ -60,6 +65,7 @@
             "preguntas": [
                 {
                     "enunciado": "2. 'Actualmente' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Now" },
                         { "texto": "B) Actually" },
@@ -70,6 +76,7 @@
                 },
                 {
                     "enunciado": "2. Plural de 'pie' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Foot" },
                         { "texto": "B) Feel" },
@@ -80,6 +87,7 @@
                 },
                 {
                     "enunciado": "2. Plural de 'diente' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Teeth" },
                         { "texto": "B) Tongue" },
@@ -90,6 +98,7 @@
                 },
                 {
                     "enunciado": "2. I ______ crazy",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Isn't" },
                         { "texto": "B) Not" },
@@ -100,6 +109,7 @@
                 },
                 {
                     "enunciado": "2. 'Cincuenta' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Fifteen" },
                         { "texto": "B) Fifty" },
@@ -115,6 +125,7 @@
             "preguntas": [
                 {
                     "enunciado": "3. 'Hay 5 manzanas' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) There is 5 apples" },
                         { "texto": "B) They're 5 apples" },
@@ -125,6 +136,7 @@
                 },
                 {
                     "enunciado": "3. 'Hay un lapicero' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) They're a pen" },
                         { "texto": "B) There are a pen" },
@@ -135,6 +147,7 @@
                 },
                 {
                     "enunciado": "3. 'Precio' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Pride" },
                         { "texto": "B) Prize" },
@@ -145,6 +158,7 @@
                 },
                 {
                     "enunciado": "3. 'Simple' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Plane" },
                         { "texto": "B) Plain" },
@@ -155,6 +169,7 @@
                 },
                 {
                     "enunciado": "3. 'Mirar' en inglés",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) See" },
                         { "texto": "B) Watch" },
@@ -170,6 +185,7 @@
             "preguntas": [
                 {
                     "enunciado": "4. Sinónimo de 'courtain'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Counter" },
                         { "texto": "B) Drape" },
@@ -180,6 +196,7 @@
                 },
                 {
                     "enunciado": "4. Cómo se dice 'Perdón' (Porque no se a entendido)",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Excuse me" },
                         { "texto": "B) What did you say?" },
@@ -190,6 +207,7 @@
                 },
                 {
                     "enunciado": "4. Para que se utiliza la siguiente frase: 'How's life?'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Para saber el trabajo" },
                         { "texto": "B) Para saber cómo vive" },
@@ -200,6 +218,7 @@
                 },
                 {
                     "enunciado": "4. Para que se utiliza la siguiente frase: 'Can't complain'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) No me puedo quejar" },
                         { "texto": "B) No lo puedo realizar" },
@@ -210,6 +229,7 @@
                 },
                 {
                     "enunciado": "4. Para que se utiliza la siguiente frase: 'It's very kind of you'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Estoy muy orgulloso de ti" },
                         { "texto": "B) Espero no se mucha molestia" },
@@ -225,6 +245,7 @@
             "preguntas": [
                 {
                     "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Hit the road'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Alentar a alguien" },
                         { "texto": "B) Aconsejar a alguien" },
@@ -235,6 +256,7 @@
                 },
                 {
                     "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Cold feet'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Asustarse mucho con algo" },
                         { "texto": "B) Estar muy nervioso por algo" },
@@ -245,6 +267,7 @@
                 },
                 {
                     "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Off the hinge'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Desubicado" },
                         { "texto": "B) Denigrante" },
@@ -255,6 +278,7 @@
                 },
                 {
                     "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Go cold turkey'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Dejar un hábito de repente" },
                         { "texto": "B) Sentirse con mucho frío" },
@@ -265,6 +289,7 @@
                 },
                 {
                     "enunciado": "5. En qué ocasión se utiliza la siguiente frase: 'Hit the book'",
+                    "informacionComplementaria": "Esta es la información complementaria",
                     "respuestas": [
                         { "texto": "A) Ir a pelear" },
                         { "texto": "B) Ir a organizarse" },
